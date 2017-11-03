@@ -61,8 +61,9 @@ This encoding should have the following characteristics:
 |30|**`R`**|0x52| |62|**`x`**|0x78| |94|**`Ü`**|0xDC| |126|**`ü`**|0xFC|
 |31|**`S`**|0x53| |63|**`y`**|0x79| |95|**`Ý`**|0xDD| |127|**`ý`**|0xFD|
 
+
 ### End Marker
-An end marker identifies the string as a Base-128 encoded identifier. This marker, the thorn `þ` character, terminates the string value This character is only used currently in Iceland (see [https://en.wikipedia.org/wiki/Thorn_(letter)]). Thorn is never at the end of a word so an encoded identifier shouldn't be confused with an Icelandic word.
+An end marker identifies the string as a Base-128 encoded identifier. This marker, the thorn `þ` character, terminates the string value This character is only used currently in Iceland (see https://en.wikipedia.org/wiki/Thorn_(letter)). Thorn is never at the end of a word so an encoded identifier shouldn't be confused with an Icelandic word.
 
 ### Regular Expression
 This regular expression can match a whole Base-128 encoded identifier: `[/-9?-Za-z¿-ý]{2,}þ`
