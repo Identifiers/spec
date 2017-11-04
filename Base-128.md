@@ -22,7 +22,7 @@ This encoding should have the following characteristics:
 * Interpreted as a string without escape sequences in the serialization formats of JSON, CSV, XML, and Markdown
   * Does not contain markers, delimiters or escape chars in these formats
 * Not confusable with other well-known encodings
-* Does not need to support line-splitting, padding or case-insensitivity
+* Does not need to support multi-line splitting, chunking, padding or case-insensitivity
 
 ### Alphabet
 
@@ -64,6 +64,8 @@ This encoding should have the following characteristics:
 
 ### End Marker
 An end marker identifies the string as a Base-128 encoded identifier. This marker, the thorn `þ` 0xFD character, terminates the string value This character is only used currently in Iceland (see https://en.wikipedia.org/wiki/Thorn_(letter)). Thorn is never at the end of a word so an encoded identifier shouldn't be confused with an Icelandic word.
+
+### Whitespace
 
 ### Regular Expression
 This regular expression can match a whole Base-128 encoded identifier: `[/-9?-Za-z¿-ý]{2,}þ`
