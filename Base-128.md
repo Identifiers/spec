@@ -65,7 +65,5 @@ This encoding should have the following characteristics:
 ### End Marker
 An end marker identifies the string as a Base-128 encoded identifier. This marker, the thorn `þ` 0xFD character, terminates the string value This character is only used currently in Iceland (see https://en.wikipedia.org/wiki/Thorn_(letter)). Thorn is never at the end of a word so an encoded identifier shouldn't be confused with an Icelandic word.
 
-### Whitespace
-
 ### Regular Expression
 This regular expression can match a whole Base-128 encoded identifier: `[/-9?-Za-z¿-ý]{2,}þ`
