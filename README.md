@@ -9,22 +9,21 @@ This is hard, error-prone and the source of many, many bugs, failures, and other
 Identifier types can be primitive values, semantic values or structures of other identifiers.
 
 ###Primitive Identifiers
+* any
 * string
+* boolean
 * integer
 * long
-* decimal
-* boolean
-* any
+* float
+* bytes
 
-The 'any' type can be any other identifier type, including structured and semantic identifiers.
+The 'any' type can be any primitive or other identifier type, including structured and semantic identifiers.
 
 ###List Identifiers
 Identifiers can be a list of values. The list can be either a fixed length or variable length list. Fixed-length lists can specify different types per element in the list. Variable length lists can only specify a single part type.
 
 ###Semantic Identifiers
 Semantic identifiers are based on either primitive or List identifiers. They can be considered to "extend" a base Identifier type.
-
-##TODO move all semantic identifiers to second byte. Make space for undefined primitive and structural IDs in first byte. Even if you never need them, credibility will increase.
 
 * Datetime (long integer)
 * GUID (string pattern)
