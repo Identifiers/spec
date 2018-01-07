@@ -8,7 +8,7 @@ This is hard, error-prone and the source of many, many bugs, failures, and other
 # Identifier Types
 Identifier types can be primitive values, semantic values or structures of other identifiers.
 
-###Primitive Identifiers
+### Primitive Identifiers
 * any
 * string
 * boolean
@@ -19,10 +19,10 @@ Identifier types can be primitive values, semantic values or structures of other
 
 The 'any' type can be any primitive or other identifier type, including structured and semantic identifiers.
 
-###List Identifiers
+### List Identifiers
 Identifiers can be a list of values. The list can be either a fixed length or variable length list. Fixed-length lists can specify different types per element in the list. Variable length lists can only specify a single part type.
 
-###Semantic Identifiers
+### Semantic Identifiers
 Semantic identifiers are based on either primitive or List identifiers. They can be considered to "extend" a base Identifier type.
 
 * Datetime (long integer)
@@ -32,7 +32,7 @@ Semantic identifiers are based on either primitive or List identifiers. They can
 * UUID (two long integers)
 * Latitude/Longitude (two decimals, or two patterned strings)
 
-###Cross-Version Consumption
+### Cross-Version Consumption
 Semantic identifiers are guaranteed safe passage through older systems that do not understand the semantics of the identifier. They can consume the identifier and even generate it from an exemplar successfully. As an example, if a system encounters a UUID identifier, but has no explicit support for UUID identifiers, it will simply treat the value as a fixed list of 2 longs. If it passes this identifier on to another system that does understand UUID identifiers, that system would be able to consume it as such.
 
 # Identifiers Goals
