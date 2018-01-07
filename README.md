@@ -12,25 +12,25 @@ Identifier types can be primitive values, semantic values or structures of other
 * string
 * boolean
 * integer
-* long
 * float
+* long
 * bytes
 
 ### List Identifiers
-Identifiers can be a list of values. The list can be either a fixed length or variable length list. Fixed-length lists can specify different types per element in the list. Variable length lists can only specify a single part type.
+A list identifier is be a list of primitive values.
 
 ### Semantic Identifiers
 Semantic identifiers are based on either primitive or List identifiers. They can be considered to "extend" a base Identifier type.
 
+* UUID (two long integers)
 * Datetime (long integer)
-* GUID (string pattern)
+* GUID (string pattern?)
 * username (string pattern)
 * ISO-8601 (string patterns for date/time interpretation)
-* UUID (two long integers)
 * Latitude/Longitude (two decimals, or two patterned strings)
 
 ### Cross-Version Consumption
-Semantic identifiers are guaranteed safe passage through older systems that do not understand the semantics of the identifier. They can consume the identifier and even generate it from an exemplar successfully. As an example, if a system encounters a UUID identifier, but has no explicit support for UUID identifiers, it will simply treat the value as a fixed list of 2 longs. If it passes this identifier on to another system that does understand UUID identifiers, that system would be able to consume it as such.
+Semantic identifiers are guaranteed safe passage through older systems that do not understand the semantics of the identifier. They can consume the identifier and pass it through to another system successfully. As an example, if a system encounters a UUID identifier, but has no explicit support for UUID identifiers, it will simply treat the value as a fixed list of 2 longs. If it passes this identifier on to another system that does understand UUID identifiers, that system would be able to consume it as such. If, in turn, the second system passes the identifier on as an encoded identifier, it will retain it's UUID semantic type.
 
 # Identifiers Goals
 1. Encoding identifiers into strings. The string type is the universal data format.
