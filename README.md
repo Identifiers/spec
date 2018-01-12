@@ -17,7 +17,7 @@ Identifier types can be primitive values, semantic values or structures of other
 * bytes
 
 ### List Identifiers
-A list identifier is be a list of primitive values.
+A list identifier is a list of values. They can be primitive or semantic values. They are not a list of identifiers, but are a single identifier composed of multiple values of the same type.
 
 ### Semantic Identifiers
 Semantic identifiers are based on either primitive or List identifiers. They can be considered to "extend" a base Identifier type.
@@ -34,7 +34,21 @@ Semantic identifiers are guaranteed safe passage through older systems that do n
 
 # Identifiers Goals
 1. Encoding identifiers into strings. The string type is the universal data format.
-2. Encoding stringified identifiers into "safe" strings that will ensure "safe passage" through common mediums and systems.
-3. One can inspect an indentifier and determine it's type, and thus how to decode and parse it.
+2. Encoded identifier strings will ensure passage through common mediums and systems.
+3. One can inspect an identifier and determine it's type, and thus how to decode and parse it.
 4. Libraries will be developed to accomplish these goals in a cross-system manner.
 
+## String Encoding
+Identifiers have two forms of string encoding--Data and Human. These forms have different uses.
+
+## Data Form
+The data form is intended for identifiers that go into transmitted data like JSON and XML, as well as data storage like a SQL database. They are not intended for use in URIs and are not human-enterable, though they are composed of visible characters.
+
+Identifiers serialized for data purposes are encoded with a [base-128 symbol set](Base-128.md) for minimum size bloat and transferability.
+
+## Human Form
+Identifiers are often consumed and entered by humans and thus have different constraints. Examples of this form are account identifiers, URLs and serial numbers.
+
+The human form is based on [Douglas Crockford's Base32 definition](http://crockford.com/wrmg/base32.html).
+
+TODO:  think about support for dividers like whitespace and dashes
