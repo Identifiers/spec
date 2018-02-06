@@ -1,31 +1,31 @@
-# Base 128 Encoding
+# Base-128 Encoding
 ## Rationale
-Identifiers are often non-string values and need to be encoded as strings, so they need a safe string representation to live in data objects. Other systems use binary-to-string encodings to accomplish this need, such as Base-32 or Base-64. Reusing these encodings is expedient, but not that practical, for the purpose of encoding identifiers as strings in data. The problems are size and complexity.
+Identifiers are often non-string values that need to be safely encoded as strings to exist in data systems. Other systems use binary-to-string encodings to accomplish this need, such as Base-32 or Base-64. Reusing these encodings is expedient, but not that practical, for the purpose of encoding identifiers as strings in data. The problems are size and complexity.
 
 ### Size
-Binary data encoded as Base-64 expands to be about 33% larger than the size of the data itself. The Base-64 encoding was designed for pre-Unicode systems where the only reliable cross-platform strings were ASCII characters.
-
-Base-128 uses the now-common UTF-8 Latin-1 block which shares visible characters with several popular character sets.
+Binary data encoded as Base-64 expands to be about 33% larger than the size of the data itself. The Base-64 encoding was designed for pre-Unicode systems where the only reliable cross-platform strings were ASCII characters. Base-128 encoding reduces this bloat by ~50% by using a modern symbol set to encode bytes. Base-128 uses the now-common UTF-8 Latin-1 block which shares visible characters with several popular character sets.
 
 ### Complexity
-Older binary encoding schemes like Base-64 were designed to transmit binary data with text systems like email and usenet. they included features like multi-line breaks, chunked delivery, line padding and character-aliasing.
+Older binary encoding schemes like Base-64 were designed to transmit binary data with text systems like email and usenet. they included features like multi-line breaks, chunked delivery, line padding and character-aliasing, all which were helpful for sending binary data in human-driven formats like email.
 
-Base-128 is not meant for binary data transfer and won't need to support this complexity.
+Base-128 is not meant for human-driven data transfer and won't need to support this complexity. It's goal is to live inside software-driven data systems with occasional human inspection.
 
 ## Requirements
 This encoding should have the following characteristics:
 
 * Smallest possible representation of binary data
 * Visible characters in the ISO-8859-1/15 / ANSI / Windows-1252 / UTF-8 (Latin 1 block) character set
+  * Suitable for human inspection but not editing 
   * Does NOT need to be URL-encoding safe
-  * Character codes < 256 for encoding simplicity
+  * Character codes < 256 for encoding compactness
 * Interpreted as a string without escape sequences in the serialization formats of JSON, CSV, XML, and Markdown
   * Does not contain markers, delimiters or escape chars in these formats
 * Not confusable with other well-known encodings
-* Does not need to support multi-line splitting, chunking, padding or case-insensitivity
 
-### Alphabet
+### Relationship to Base-32
+Identifiers also specifies a human-driven encoding format for use cases that require human-driven transimssion. Details can be found in the [Base-32 Encoding](./Base-32.md) definition.
 
+### Symbol Table
 |pos|char|code|  |pos|char|code|  |pos|char|code|  |pos|char|code|
 |---:|:---:|---:|---|---:|:---:|---:|---|---:|:---:|---:|---|---:|:---:|---:|
 |0|**`/`**|0x2F| |32|**`T`**|0x54| |64|**`z`**|0x7A| |96|**`Þ`**|0xDE|
