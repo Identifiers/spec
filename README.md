@@ -44,11 +44,7 @@ Identifiers have two forms of string encoding--Data and Human. These forms have 
 ## Data Form
 The data form is intended for identifiers that go into transmitted data like JSON and XML, as well as data storage like a SQL database. They are not intended for use in URIs and are not human-enterable, though they are composed of visible characters.
 
-Identifiers serialized for data purposes are encoded with a [base-128 symbol set](Base-128.md) for minimum size bloat and transferability.
+Identifiers serialized for data purposes are encoded with a [Base-128 symbol set](Base-128.md) for minimum size bloat and transferability.
 
 ## Human Form
-Identifiers are often consumed and entered by humans and thus have different constraints. Examples of this form are account identifiers, URLs and serial numbers.
-
-The human form is based on [Douglas Crockford's Base32 definition](http://crockford.com/wrmg/base32.html).
-
-TODO:  think about support for dividers like whitespace and dashes
+Identifiers are often consumed and entered by humans and thus have different constraints. Examples of this form are account identifiers, URLs and serial numbers. The specification can be found in the [Base-32 specification](Base-32.md).

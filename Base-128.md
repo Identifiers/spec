@@ -23,7 +23,7 @@ This encoding should have the following characteristics:
 * Not confusable with other well-known encodings
 
 ### Relationship to Base-32
-Identifiers also specifies a human-driven encoding format for use cases that require human-driven transimssion. Details can be found in the [Base-32 Encoding](./Base-32.md) definition.
+Identifiers also specifies a human-driven encoding format for use cases that require human-driven transimssion. Details can be found in the [Base-32 Encoding](Base-32.md) definition.
 
 ### Symbol Table
 |pos|char|code|  |pos|char|code|  |pos|char|code|  |pos|char|code|

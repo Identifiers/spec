@@ -1,14 +1,19 @@
 # Base-32 Encoding
 ## Rationale
+Humans often hand-enter identifiers, usually in a website URL. Because humans are known to make mistakes, the Base-32 format for identifiers is needed to reduce the impact of their mistakes when interpreting the encoded identifier.
 
 ## Requirements
-* Checksum
-* Aliases for common mistyping
-* Case-insensitive
-* URL-safe
+* Checksum -- the encoded identifier will include a checksum character to validate the identifier symbols was keyed in correctly.
+* Aliases for common mistyping -- humans regularly misinterpret some characters as other characters. For instance, "0" is often read as "O", or the letter "O". This encoding handles these common mistakes by aliasing the mistaken values as correct values.
+* Case-insensitive -- While it can be said humans don't pay much attention to the case of a letter, it is also quite common for softare to mess up case as well. This encoding will be case-insensitive to help this situation.
+* URL-safe -- The most common form of human identifier entry is in URLs. As a consequence, this Base-32 encoding is URL-safe, meaning that the symbols in an identifier will not have to be percent-encoded to work in a URL setting. Moreover, they will not include reserved URL symbols like '/' or '?'.
+
+### Douglas Crockford's Base-32
+This encoding's symbol set and checksum are an implementation of [Douglas Crockford's Base32 definition](http://crockford.com/wrmg/base32.html). The one addition to this specification is the presence of a prefix character '_' to aid in pattern matching.
+
 
 ### Relationship to Base-128
-Identifiers also specifies a software-driven encoding format for use cases that do not require human-driven transimssion. Details can be found in the [Base-128 Encoding](./Base-128.md) definition.
+Identifiers also specifies a software-driven encoding format for use cases that do not require human-driven transimssion. Details can be found in the [Base-128 Encoding](Base-128.md) definition.
 
 ### Symbol Table
 |pos|char|code|  |pos|char|code|
@@ -39,3 +44,7 @@ Identifiers also specifies a software-driven encoding format for use cases that 
 |35|**`=`**|0x3D|
 |36|**`u[U]`**|0x75, 0x55|
 
+The Checksum is calculated by summing the bytes in the encoded data, then calculating the modulo of 37.
+
+### Regular Expression
+This regular expression can match a whole Base-32 encoded identifier: `_[0-9A-VW-Za-vw-z]{2,}[0-9A-Za-z*~$=]`
