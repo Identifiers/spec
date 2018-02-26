@@ -24,10 +24,7 @@ Semantic identifiers are based on either primitive or List identifiers. They can
 
 * UUID (two long integers)
 * Datetime (long integer)
-* GUID (string pattern?)
-* username (string pattern)
-* ISO-8601 (string patterns for date/time interpretation)
-* Latitude/Longitude (two decimals, or two patterned strings)
+* Geo https://tools.ietf.org/html/rfc5870
 
 ### Cross-Version Consumption
 Semantic identifiers are guaranteed safe passage through older systems that do not understand the semantics of the identifier. They can consume the identifier and pass it through to another system successfully. As an example, if a system encounters a UUID identifier, but has no explicit support for UUID identifiers, it will simply treat the value as a fixed list of 2 longs. If it passes this identifier on to another system that does understand UUID identifiers, that system would be able to consume it as such. If, in turn, the second system passes the identifier on as an encoded identifier, it will retain it's UUID semantic type.
