@@ -19,12 +19,15 @@ Identifier types can be primitive values, semantic values or structures of other
 ### List Identifiers
 A list identifier is a list of values. They can be primitive or semantic values. They are not a list of identifiers, but are a single identifier composed of multiple values of the same type.
 
+### Map Identifiers
+A map identifier is a map of values. They can only be primitive values. Maps are useful to create a single identifier composed of multiple values of the same type. These values are labeled as the map keys. Maps of mixed types and identifiers are not supported.
+
 ### Semantic Identifiers
 Semantic identifiers are based on either primitive or List identifiers. They can be considered to "extend" a base Identifier type.
 
-* UUID (two long integers)
+* UUID (16 bytes)
 * Datetime (long integer)
-* Geo https://tools.ietf.org/html/rfc5870
+* Geo (a list of two floats for latitude and longitude)
 
 ### Cross-Version Consumption
 Semantic identifiers are guaranteed safe passage through older systems that do not understand the semantics of the identifier. They can consume the identifier and pass it through to another system successfully. As an example, if a system encounters a UUID identifier, but has no explicit support for UUID identifiers, it will simply treat the value as a fixed list of 2 longs. If it passes this identifier on to another system that does understand UUID identifiers, that system would be able to consume it as such. If, in turn, the second system passes the identifier on as an encoded identifier, it will retain it's UUID semantic type.
