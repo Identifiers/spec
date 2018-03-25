@@ -1,5 +1,4 @@
 const SYMBOLS = "/0123456789?@ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüý";
-const TERMINATOR = "þ";
 
 // creates a Markdown table of the symbols, plus the regexp
 let tbl = `
@@ -30,7 +29,7 @@ for (let i = 0; i < SYMBOLS.length; i++) {
 }
 
 console.log("### Regular Expression");
-regexStr += "]{2,}" + TERMINATOR + "$`";
+regexStr += "]{2,}þ$`";
 console.log(regexStr);
 
 
