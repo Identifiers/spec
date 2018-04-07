@@ -1,0 +1,36 @@
+[
+  {
+    "type": "string",
+    "typeCode": 0,
+    "value": "hello world",
+    "base128": "Ç/IpÁIÖêqÆBôùÇÖâþ",
+    "base32": "_j80apt35dhp6y83qdxs6rs0v"
+  },
+  {
+    "type": "string",
+    "typeCode": 0,
+    "value": "",
+    "base128": "Ç/H/þ",
+    "base32": "_j80a0a"
+  },
+  {
+    "type": "string-list",
+    "typeCode": 16,
+    "value": [
+      "hello world",
+      ""
+    ],
+    "base128": "Ç3FdÙUÈêpOâ6uwâêlb/þ",
+    "base32": "_j8895av8cnp6rvs0exqq4v34m0g"
+  },
+  {
+    "type": "string-map",
+    "typeCode": 32,
+    "value": {
+      "a": "hello world",
+      "b": ""
+    },
+    "base128": "Ç7Dd?5ÔælÙAÄ÷0ìísO@È?9zþ",
+    "base32": "_j8g858b1ndm6av3cdwg7evvjdhja2rn0f"
+  }
+]

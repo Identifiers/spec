@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<symbols>
+  <base128>/0123456789?@ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþ</base128>
+  <base32>_0123456789abcdefghjkmnpqrstvwxyz*~$=u</base32>
+</symbols>

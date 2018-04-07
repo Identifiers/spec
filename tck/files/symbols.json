@@ -1,0 +1,4 @@
+{
+  "base128": "/0123456789?@ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþ",
+  "base32": "_0123456789abcdefghjkmnpqrstvwxyz*~$=u"
+}
