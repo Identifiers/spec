@@ -1,4 +1,4 @@
-const SYMBOLS = "/0123456789?@ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüý";
+const SYMBOLS = '/0123456789?@ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüý';
 
 // creates a Markdown table of the symbols, plus the regexp
 let tbl = `
@@ -12,10 +12,10 @@ for (let i = 0; i < SYMBOLS.length / 4; i++) {
 console.log(tbl);
 
 // regex
-let regexStr = "`^[", startBlock = "", lastChar = "";
+let regexStr = '`^[', startBlock = '', lastChar = '';
 for (let i = 0; i < SYMBOLS.length; i++) {
   const char = SYMBOLS.charAt(i);
-  if (startBlock === "") {
+  if (startBlock === '') {
     startBlock = char;
     lastChar = char;
   } else if (toCharCode(lastChar) + 1 < toCharCode(char)) {
@@ -28,8 +28,8 @@ for (let i = 0; i < SYMBOLS.length; i++) {
   lastChar = char;
 }
 
-console.log("### Regular Expression");
-regexStr += "]{2,}þ$`";
+console.log('### Regular Expression');
+regexStr += ']{2,}þ$`';
 console.log(regexStr);
 
 
