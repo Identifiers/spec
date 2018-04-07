@@ -1,5 +1,5 @@
 const ID = require('identifiers-js');
-const fs = require('fs-extra');
+const generator = require('./generator');
 
 /*
   Generate tck files:
@@ -19,27 +19,12 @@ const fs = require('fs-extra');
  */
 
 
-const codecSymbol = Symbol.for('id-codec');
-
+// string
 const stringValues = [
-  'hello world',
+  'Hello, World!',
   ''
 ];
+generator.tck(stringValues, ID.factory.string, 'primitives/strings');
 
-const stringIDs = stringValues.map((value) => ID.factory.string(value));
-stringIDs.push(ID.factory.string.list(stringValues));
-stringIDs.push(ID.factory.string.map({a: stringValues[0], b: stringValues[1]}));
 
-const stringTCK = stringIDs.map((id) => {
-  const codec = id[codecSymbol];
-  return {
-    type: codec.type,
-    typeCode: codec.typeCode,
-    value: id.value,
-    base128: id.toString(),
-    base32: id.toBase32String()
-  }
-});
 
-// json
-fs.outputFileSync('./files/primitives/strings.json', JSON.stringify(stringTCK, null, 2));

@@ -1,12 +1,10 @@
 {
-  "name": "identifiers-tck",
-  "version": "0.0.1",
-  "description": "Test compatibility kit for Identifiers implementations.",
-  "main": "src/create-tck.js",
+  "name": "identifiers-tck-generator",
+  "description": "Test Compatibility Kit generator.",
   "repository": "https://www.github.com/Identifiers/identifiers-js",
   "author": "Matt Bishop (https://www.github.com/mattbishop)",
   "license": "MIT",
-  "private": false,
+  "private": true,
   "dependencies": {
     "fs-extra": "5.0.0",
     "identifiers-js": "file:../../identifiers-js"
