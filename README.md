@@ -48,3 +48,6 @@ Identifiers serialized for data purposes are encoded with a [Base-128 symbol set
 
 ## Human Form
 Identifiers are often consumed and entered by humans and thus have different constraints. Examples of this form are account identifiers, URLs and serial numbers. The specification can be found in the [Base-32 specification](Base-32.md).
+
+## Cross-Implementation Compatibility
+It is expected that encoded identifiers created in one system will be consumed in another system of a different architecture. For instance, a Java server will encode an Identifier that will be consumed by a JavaScript client. To support this goal, all implementations must pass the [Test Compatibility Kit](./tck/README.md).
