@@ -1,0 +1,63 @@
+[
+  {
+    "type": "integer",
+    "typeCode": 2,
+    "value": -2147483648,
+    "base128": "Ç/Øb////þ",
+    "base32": "_j81d500000005"
+  },
+  {
+    "type": "integer",
+    "typeCode": 2,
+    "value": -32767,
+    "base128": "Ç/ØL/3þ",
+    "base32": "_j81d30015"
+  },
+  {
+    "type": "integer",
+    "typeCode": 2,
+    "value": 0,
+    "base128": "Ç/z/þ",
+    "base32": "_j81000"
+  },
+  {
+    "type": "integer",
+    "typeCode": 2,
+    "value": 255,
+    "base128": "Ç/×Íöþ",
+    "base32": "_j81cszrf"
+  },
+  {
+    "type": "integer",
+    "typeCode": 2,
+    "value": 2147483647,
+    "base128": "Ç/×åýýýýþ",
+    "base32": "_j81cwzzzzzzgs"
+  },
+  {
+    "type": "integer-list",
+    "typeCode": 18,
+    "value": [
+      -2147483648,
+      -32767,
+      0,
+      255,
+      2147483647
+    ],
+    "base128": "Ç3ÐÛH////nj/72MýåSýýýúþ",
+    "base32": "_j899bmm000001mc0040cszyefzzzzzry"
+  },
+  {
+    "type": "integer-map",
+    "typeCode": 34,
+    "value": {
+      "a": -2147483648,
+      "b": -32767,
+      "c": 0,
+      "d": 255,
+      "e": 2147483647
+    },
+    "base128": "Ç7ÎØ?6Y////9??W//æfj44ÇÊýæfÚñýýýýzþ",
+    "base32": "_j8h8b8b1ta000000m5hd3001m5hg18b4skzt2seefzzzzzr="
+  }
+]

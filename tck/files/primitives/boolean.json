@@ -1,0 +1,36 @@
+[
+  {
+    "type": "boolean",
+    "typeCode": 1,
+    "value": true,
+    "base128": "Ç/rjþ",
+    "base32": "_j80w69"
+  },
+  {
+    "type": "boolean",
+    "typeCode": 1,
+    "value": false,
+    "base128": "Ç/rTþ",
+    "base32": "_j80w48"
+  },
+  {
+    "type": "boolean-list",
+    "typeCode": 17,
+    "value": [
+      true,
+      false
+    ],
+    "base128": "Ç3lfR7þ",
+    "base32": "_j88s5gy2*"
+  },
+  {
+    "type": "boolean-map",
+    "typeCode": 33,
+    "value": {
+      "a": true,
+      "b": false
+    },
+    "base128": "Ç7jd?66Ukjzþ",
+    "base32": "_j8gr58b1regp5ggz"
+  }
+]

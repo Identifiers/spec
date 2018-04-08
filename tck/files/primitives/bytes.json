@@ -1,0 +1,54 @@
+[
+  {
+    "type": "bytes",
+    "typeCode": 5,
+    "value": [
+      0,
+      127
+    ],
+    "base128": "Ç0rzD0üþ",
+    "base32": "_j82w80g0fw*"
+  },
+  {
+    "type": "bytes",
+    "typeCode": 5,
+    "value": [
+      128,
+      255
+    ],
+    "base128": "Ç0rzH2üþ",
+    "base32": "_j82w80m0zwx"
+  },
+  {
+    "type": "bytes-list",
+    "typeCode": 21,
+    "value": [
+      [
+        0,
+        127
+      ],
+      [
+        128,
+        255
+      ]
+    ],
+    "base128": "Ç4lfT7/ýà/ÎCöþ",
+    "base32": "_j8as5h0201zw80m0zw="
+  },
+  {
+    "type": "bytes-map",
+    "typeCode": 37,
+    "value": {
+      "a": [
+        0,
+        127
+      ],
+      "b": [
+        128,
+        255
+      ]
+    },
+    "base128": "Ç8jd?671/SòJJD4/ýzþ",
+    "base32": "_j8jr58b1rg100zx1cb20507z$"
+  }
+]

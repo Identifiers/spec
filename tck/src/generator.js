@@ -1,7 +1,7 @@
 const fs = require('fs-extra');
 
 
-module.exports.tck = function(values, factory, path) {
+module.exports.tck = function(factory, path, ...values) {
   const ids = createIDsFromValues(values, factory);
   const tckObject = createTCKObject(ids);
   persistTCK(tckObject, path);

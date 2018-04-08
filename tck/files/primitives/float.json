@@ -1,0 +1,63 @@
+[
+  {
+    "type": "float",
+    "typeCode": 3,
+    "value": 5e-324,
+    "base128": "Ç/÷j////////7þ",
+    "base32": "_j81wp0000000000004m"
+  },
+  {
+    "type": "float",
+    "typeCode": 3,
+    "value": -900.11,
+    "base128": "Ç/÷v3j¿ßWéÀÅÖþ",
+    "base32": "_j81wqg4c43gmfbgmfc$"
+  },
+  {
+    "type": "float",
+    "typeCode": 3,
+    "value": 0.1,
+    "base128": "Ç/÷mûämMÊämMÎþ",
+    "base32": "_j81wpfxsk6csk6csk82"
+  },
+  {
+    "type": "float",
+    "typeCode": 3,
+    "value": 88.44323,
+    "base128": "Ç/÷n1ÖrÛîÕHêÎþ",
+    "base32": "_j81wpg2p3hey2q56s8d"
+  },
+  {
+    "type": "float",
+    "typeCode": 3,
+    "value": 1.7976931348623157e+308,
+    "base128": "Ç/÷qýyýýýýýýöþ",
+    "base32": "_j81wpzzfzzzzzzzzzww"
+  },
+  {
+    "type": "float-list",
+    "typeCode": 19,
+    "value": [
+      5e-324,
+      -900.11,
+      0.1,
+      88.44323,
+      1.7976931348623157e+308
+    ],
+    "base128": "Ç3ðÚÖ////////6KzÄ7PHwrbùãÍõMÊämMÊä×n1ÖrÛîÕHêÔgýíýýýýýýüþ",
+    "base32": "_j89sbjr000000000000wqg4c43gmfbgmff5kzecsk6csk6ctsd05c72xw5eadjpbfzqzzzzzzzzzyu"
+  },
+  {
+    "type": "float-map",
+    "typeCode": 35,
+    "value": {
+      "a": 5e-324,
+      "b": -900.11,
+      "c": 0.1,
+      "d": 88.44323,
+      "e": 1.7976931348623157e+308
+    },
+    "base128": "Ç7îØ?6J////////0ÎÖ×v3j¿ßWéÀÅÛ4ÅÉSìmMÊämMËbfÊØ0fPhöeÈpdÀããÝûýýýýýýýÞþ",
+    "base32": "_j8hrb8b1sc000000000000d1cb5w1310w53tw53vm5hwpfxsk6csk6cskagp9jt0are5vrawmv5a2sebfzqzzzzzzzzzy4"
+  }
+]

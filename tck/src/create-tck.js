@@ -19,12 +19,29 @@ const generator = require('./generator');
  */
 
 
-// string
-const stringValues = [
+generator.tck(ID.factory.string, 'primitives/string',
   'Hello, World!',
   ''
-];
-generator.tck(stringValues, ID.factory.string, 'primitives/strings');
+);
 
+generator.tck(ID.factory.boolean, 'primitives/boolean',
+  true,
+  false
+);
 
+generator.tck(ID.factory.bytes, 'primitives/bytes',
+  [0, 127],
+  [128, 255]
+);
 
+generator.tck(ID.factory.float, 'primitives/float',
+  Number.MIN_VALUE, -900.11, 0.1, 88.44323, Number.MAX_VALUE
+);
+
+generator.tck(ID.factory.integer, 'primitives/integer',
+  -(2 ** 31), -32767, 0, 255, 2 ** 31 - 1
+);
+
+generator.tck(ID.factory.long, 'primitives/long',
+  Number.MIN_SAFE_INTEGER, -4095, 0, 511, Number.MAX_SAFE_INTEGER
+);
