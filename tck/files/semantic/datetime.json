@@ -1,0 +1,45 @@
+[
+  {
+    "type": "datetime",
+    "typeCode": 388,
+    "value": "1900-01-01T08:00:00.000Z",
+    "base128": "ÇmTLZi4/8TÄÖ///þ",
+    "base32": "_jb6g316bra0150hng00006"
+  },
+  {
+    "type": "datetime",
+    "typeCode": 388,
+    "value": "1970-01-01T00:00:00.000Z",
+    "base128": "ÇmTLT/þ",
+    "base32": "_jb6g31003"
+  },
+  {
+    "type": "datetime",
+    "typeCode": 388,
+    "value": "2001-09-09T01:46:40.000Z",
+    "base128": "ÇmTLZg3ëAYHT///þ",
+    "base32": "_jb6g316b89phn55200000e"
+  },
+  {
+    "type": "datetime-list",
+    "typeCode": 404,
+    "value": [
+      "1900-01-01T08:00:00.000Z",
+      "1970-01-01T00:00:00.000Z",
+      "2001-09-09T01:46:40.000Z"
+    ],
+    "base128": "ÇmTMXÍKÀz3ÎWf////læZæècV////þ",
+    "base32": "_jb6g354ksf1804m26p000000sd16t6mmm800000*"
+  },
+  {
+    "type": "datetime-map",
+    "typeCode": 420,
+    "value": {
+      "a": "1900-01-01T08:00:00.000Z",
+      "b": "1970-01-01T00:00:00.000Z",
+      "c": "2001-09-09T01:46:40.000Z"
+    },
+    "base128": "ÇmTNXBÀßãîÎ0H7é///HJD1ÀáãÎËÏÒÐÂ////þ",
+    "base32": "_jb6g3943m5gwqgm02a13b00002gp4051cf5m4v8tjjh00000*"
+  }
+]

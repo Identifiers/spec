@@ -1,0 +1,90 @@
+[
+  {
+    "type": "geo",
+    "typeCode": 659,
+    "value": {
+      "latitude": -90,
+      "longitude": 180
+    },
+    "base128": "ÇmTcPÉUZäg/þ",
+    "base32": "_jb6g54wjt2kcsd0="
+  },
+  {
+    "type": "geo",
+    "typeCode": 659,
+    "value": {
+      "latitude": 49.4434543323,
+      "longitude": -2.47392
+    },
+    "base128": "ÇmTcPÉJzXhLkâvýyãî/vÒØWahnTþ",
+    "base32": "_jb6g54wjsd04he633j7kzfybr01wn5mhmxed27"
+  },
+  {
+    "type": "geo",
+    "typeCode": 659,
+    "value": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "base128": "ÇmTcPÆ//þ",
+    "base32": "_jb6g54wj0000h"
+  },
+  {
+    "type": "geo",
+    "typeCode": 659,
+    "value": {
+      "latitude": 90,
+      "longitude": -180
+    },
+    "base128": "ÇmTcPÇoÏýÑ/þ",
+    "base32": "_jb6g54wjbb8zyk0j"
+  },
+  {
+    "type": "geo-list",
+    "typeCode": 723,
+    "value": [
+      {
+        "latitude": -90,
+        "longitude": 180
+      },
+      {
+        "latitude": 49.4434543323,
+        "longitude": -2.47392
+      },
+      {
+        "latitude": 0,
+        "longitude": 0
+      },
+      {
+        "latitude": 90,
+        "longitude": -180
+      }
+    ],
+    "base128": "ÇmTgPÐYÎÑmJÇJg/ÆÚjáÆ÷üýÉÞ/÷cnÄÌÚæâz/3ÇoÏýÑ/þ",
+    "base32": "_jb6g5mwmjb8adk5mjb5m0j5rrce8yfxzsf007jmpj6knsmcj00094pphzx60a"
+  },
+  {
+    "type": "geo-map",
+    "typeCode": 691,
+    "value": {
+      "a": {
+        "latitude": -90,
+        "longitude": 180
+      },
+      "b": {
+        "latitude": 49.4434543323,
+        "longitude": -2.47392
+      },
+      "c": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "d": {
+        "latitude": 90,
+        "longitude": -180
+      }
+    },
+    "base128": "ÇmTePFÀßÇnHêãÐÀàÇlæ3Ãá5PÅÍõúÜ/6ÈÉXnóäÄÀáÇ//9?FXØæýçzþ",
+    "base32": "_jb6g5cw4m5gs5m56sjta2rmjsd04he633j7kzfybr01wn5mhmxed38b3j80018b4j9dd3ztc1"
+  }
+]
