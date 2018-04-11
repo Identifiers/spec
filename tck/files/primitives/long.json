@@ -51,7 +51,7 @@
   },
   {
     "type": "long-list",
-    "typeCode": 20,
+    "typeCode": 12,
     "value": [
       {
         "high": -2097152,
@@ -74,12 +74,12 @@
         "low": -1
       }
     ],
-    "base128": "Ç4FÛSýz//////6aýýýýýýýÞ0/mTSüÊ/Sýýýýýýüþ",
-    "base32": "_j8a9bmzzw0000000000x7zzzzzzzzzzg040ct0fztc01zzzzzzzzzzr4"
+    "base128": "Ç2FÛSýz//////6aýýýýýýýÞ0/mTSüÊ/Sýýýýýýüþ",
+    "base32": "_j869bmzzw0000000000x7zzzzzzzzzzg040ct0fztc01zzzzzzzzzzr~"
   },
   {
     "type": "long-map",
-    "typeCode": 36,
+    "typeCode": 20,
     "value": {
       "a": {
         "high": -2097152,
@@ -102,7 +102,7 @@
         "low": -1
       }
     },
-    "base128": "Ç8DØ?6aýî//////0ÎÖØyýýýýýýü/A4Ä/Î×MÎCüÀãçz2ýýýýýýýÞþ",
-    "base32": "_j8j8b8b1tfzy0000000000d1cb9zzzzzzzzzzw01m5hg18b4sm0zz8b5tc01zzzzzzzzzzr9"
+    "base128": "Ç4DØ?6aýî//////0ÎÖØyýýýýýýü/A4Ä/Î×MÎCüÀãçz2ýýýýýýýÞþ",
+    "base32": "_j8a8b8b1tfzy0000000000d1cb9zzzzzzzzzzw01m5hg18b4sm0zz8b5tc01zzzzzzzzzzry"
   }
 ]

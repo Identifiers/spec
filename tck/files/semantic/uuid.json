@@ -105,7 +105,7 @@
   },
   {
     "type": "uuid-list",
-    "typeCode": 149,
+    "typeCode": 141,
     "value": [
       {
         "bytes": [
@@ -188,12 +188,12 @@
         ]
       }
     ],
-    "base128": "ÇmF×ZDT//////////////////k16õÌ@ZQqàRÃÏÌBèüGõ@i7DËsûÔrÇPËbhÀyerØÒPCÖ¿6ýýýýýýýýýýýýýýýýýüþ",
-    "base32": "_jb69b564200000000000000000000000000c843yye32cepz27mb8sretqw9ywcbrg89nszdcw94wkagq89zavhdagw3xh0gzzzzzzzzzzzzzzzzzzzzzzzzzwh"
+    "base128": "ÇmE×ZDT//////////////////k16õÌ@ZQqàRÃÏÌBèüGõ@i7DËsûÔrÇPËbhÀyerØÒPCÖ¿6ýýýýýýýýýýýýýýýýýüþ",
+    "base32": "_jb68v564200000000000000000000000000c843yye32cepz27mb8sretqw9ywcbrg89nszdcw94wkagq89zavhdagw3xh0gzzzzzzzzzzzzzzzzzzzzzzzzzw9"
   },
   {
     "type": "uuid-map",
-    "typeCode": 165,
+    "typeCode": 149,
     "value": {
       "a": {
         "bytes": [
@@ -276,7 +276,7 @@
         ]
       }
     },
-    "base128": "ÇmHÖY4ÁÂ7//////////////////9??7DyvîàkéxEòg@îôÕïSràòJRDUNñùfïFsNÎÛ3üÔïobrSbfÊTÁýýýýýýýýýýýýýýýýýýþ",
-    "base32": "_jb6ab151c7210000000000000000000000000051cb210zqkgrk3nqrhx2t6e3pnz2fq32x1cf2116q7xnkh4kjda2x17xbe5na3gfn1ck211zzzzzzzzzzzzzzzzzzzzzzzzzrk"
+    "base128": "ÇmFÖY4ÁÂ7//////////////////9??7DyvîàkéxEòg@îôÕïSràòJRDUNñùfïFsNÎÛ3üÔïobrSbfÊTÁýýýýýýýýýýýýýýýýýýþ",
+    "base32": "_jb69b151c7210000000000000000000000000051cb210zqkgrk3nqrhx2t6e3pnz2fq32x1cf2116q7xnkh4kjda2x17xbe5na3gfn1ck211zzzzzzzzzzzzzzzzzzzzzzzzzr3"
   }
 ]

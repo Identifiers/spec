@@ -15,22 +15,22 @@
   },
   {
     "type": "boolean-list",
-    "typeCode": 17,
+    "typeCode": 9,
     "value": [
       true,
       false
     ],
-    "base128": "Ç3lfR7þ",
-    "base32": "_j88s5gy2*"
+    "base128": "Ç1lfR7þ",
+    "base32": "_j84s5gy2r"
   },
   {
     "type": "boolean-map",
-    "typeCode": 33,
+    "typeCode": 17,
     "value": {
       "a": true,
       "b": false
     },
-    "base128": "Ç7jd?66Ukjzþ",
-    "base32": "_j8gr58b1regp5ggz"
+    "base128": "Ç3jd?66Ukjzþ",
+    "base32": "_j88r58b1regp5ggf"
   }
 ]

@@ -1,47 +1,47 @@
 [
   {
     "type": "geo",
-    "typeCode": 659,
+    "typeCode": 651,
     "value": {
       "latitude": -90,
       "longitude": 180
     },
-    "base128": "ÇmTcPÉUZäg/þ",
-    "base32": "_jb6g54wjt2kcsd0="
+    "base128": "ÇmTbÚÉUZäg/þ",
+    "base32": "_jb6g52wjt2kcsd0v"
   },
   {
     "type": "geo",
-    "typeCode": 659,
+    "typeCode": 651,
     "value": {
       "latitude": 49.4434543323,
       "longitude": -2.47392
     },
-    "base128": "ÇmTcPÉJzXhLkâvýyãî/vÒØWahnTþ",
-    "base32": "_jb6g54wjsd04he633j7kzfybr01wn5mhmxed27"
+    "base128": "ÇmTbÚÉJzXhLkâvýyãî/vÒØWahnTþ",
+    "base32": "_jb6g52wjsd04he633j7kzfybr01wn5mhmxed2u"
   },
   {
     "type": "geo",
-    "typeCode": 659,
+    "typeCode": 651,
     "value": {
       "latitude": 0,
       "longitude": 0
     },
-    "base128": "ÇmTcPÆ//þ",
-    "base32": "_jb6g54wj0000h"
+    "base128": "ÇmTbÚÆ//þ",
+    "base32": "_jb6g52wj00009"
   },
   {
     "type": "geo",
-    "typeCode": 659,
+    "typeCode": 651,
     "value": {
       "latitude": 90,
       "longitude": -180
     },
-    "base128": "ÇmTcPÇoÏýÑ/þ",
-    "base32": "_jb6g54wjbb8zyk0j"
+    "base128": "ÇmTbÚÇoÏýÑ/þ",
+    "base32": "_jb6g52wjbb8zyk0a"
   },
   {
     "type": "geo-list",
-    "typeCode": 723,
+    "typeCode": 683,
     "value": [
       {
         "latitude": -90,
@@ -60,12 +60,12 @@
         "longitude": -180
       }
     ],
-    "base128": "ÇmTgPÐYÎÑmJÇJg/ÆÚjáÆ÷üýÉÞ/÷cnÄÌÚæâz/3ÇoÏýÑ/þ",
-    "base32": "_jb6g5mwmjb8adk5mjb5m0j5rrce8yfxzsf007jmpj6knsmcj00094pphzx60a"
+    "base128": "ÇmTdÚÐYÎÑmJÇJg/ÆÚjáÆ÷üýÉÞ/÷cnÄÌÚæâz/3ÇoÏýÑ/þ",
+    "base32": "_jb6g5awmjb8adk5mjb5m0j5rrce8yfxzsf007jmpj6knsmcj00094pphzx607"
   },
   {
     "type": "geo-map",
-    "typeCode": 691,
+    "typeCode": 667,
     "value": {
       "a": {
         "latitude": -90,
@@ -84,7 +84,7 @@
         "longitude": -180
       }
     },
-    "base128": "ÇmTePFÀßÇnHêãÐÀàÇlæ3Ãá5PÅÍõúÜ/6ÈÉXnóäÄÀáÇ//9?FXØæýçzþ",
-    "base32": "_jb6g5cw4m5gs5m56sjta2rmjsd04he633j7kzfybr01wn5mhmxed38b3j80018b4j9dd3ztc1"
+    "base128": "ÇmTcÚFÀßÇnHêãÐÀàÇlæ3Ãá5PÅÍõúÜ/6ÈÉXnóäÄÀáÇ//9?FXØæýçzþ",
+    "base32": "_jb6g56w4m5gs5m56sjta2rmjsd04he633j7kzfybr01wn5mhmxed38b3j80018b4j9dd3ztce"
   }
 ]

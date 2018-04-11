@@ -36,7 +36,7 @@
   },
   {
     "type": "float-list",
-    "typeCode": 19,
+    "typeCode": 11,
     "value": [
       5e-324,
       -900.11,
@@ -44,12 +44,12 @@
       88.44323,
       1.7976931348623157e+308
     ],
-    "base128": "Ç3ðÚÖ////////6KzÄ7PHwrbùãÍõMÊämMÊä×n1ÖrÛîÕHêÔgýíýýýýýýüþ",
-    "base32": "_j89sbjr000000000000wqg4c43gmfbgmff5kzecsk6csk6ctsd05c72xw5eadjpbfzqzzzzzzzzzyu"
+    "base128": "Ç1ðÚÖ////////6KzÄ7PHwrbùãÍõMÊämMÊä×n1ÖrÛîÕHêÔgýíýýýýýýüþ",
+    "base32": "_j85sbjr000000000000wqg4c43gmfbgmff5kzecsk6csk6ctsd05c72xw5eadjpbfzqzzzzzzzzzyw"
   },
   {
     "type": "float-map",
-    "typeCode": 35,
+    "typeCode": 19,
     "value": {
       "a": 5e-324,
       "b": -900.11,
@@ -57,7 +57,7 @@
       "d": 88.44323,
       "e": 1.7976931348623157e+308
     },
-    "base128": "Ç7îØ?6J////////0ÎÖ×v3j¿ßWéÀÅÛ4ÅÉSìmMÊämMËbfÊØ0fPhöeÈpdÀããÝûýýýýýýýÞþ",
-    "base32": "_j8hrb8b1sc000000000000d1cb5w1310w53tw53vm5hwpfxsk6csk6cskagp9jt0are5vrawmv5a2sebfzqzzzzzzzzzy4"
+    "base128": "Ç3îØ?6J////////0ÎÖ×v3j¿ßWéÀÅÛ4ÅÉSìmMÊämMËbfÊØ0fPhöeÈpdÀããÝûýýýýýýýÞþ",
+    "base32": "_j89rb8b1sc000000000000d1cb5w1310w53tw53vm5hwpfxsk6csk6cskagp9jt0are5vrawmv5a2sebfzqzzzzzzzzzys"
   }
 ]

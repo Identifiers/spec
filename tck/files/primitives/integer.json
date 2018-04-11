@@ -36,7 +36,7 @@
   },
   {
     "type": "integer-list",
-    "typeCode": 18,
+    "typeCode": 10,
     "value": [
       -2147483648,
       -32767,
@@ -44,12 +44,12 @@
       255,
       2147483647
     ],
-    "base128": "Ç3ÐÛH////nj/72MýåSýýýúþ",
-    "base32": "_j899bmm000001mc0040cszyefzzzzzry"
+    "base128": "Ç1ÐÛH////nj/72MýåSýýýúþ",
+    "base32": "_j859bmm000001mc0040cszyefzzzzzrp"
   },
   {
     "type": "integer-map",
-    "typeCode": 34,
+    "typeCode": 18,
     "value": {
       "a": -2147483648,
       "b": -32767,
@@ -57,7 +57,7 @@
       "d": 255,
       "e": 2147483647
     },
-    "base128": "Ç7ÎØ?6Y////9??W//æfj44ÇÊýæfÚñýýýýzþ",
-    "base32": "_j8h8b8b1ta000000m5hd3001m5hg18b4skzt2seefzzzzzr="
+    "base128": "Ç3ÎØ?6Y////9??W//æfj44ÇÊýæfÚñýýýýzþ",
+    "base32": "_j898b8b1ta000000m5hd3001m5hg18b4skzt2seefzzzzzrk"
   }
 ]

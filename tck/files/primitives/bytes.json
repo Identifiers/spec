@@ -21,7 +21,7 @@
   },
   {
     "type": "bytes-list",
-    "typeCode": 21,
+    "typeCode": 13,
     "value": [
       [
         0,
@@ -32,12 +32,12 @@
         255
       ]
     ],
-    "base128": "Ç4lfT7/ýà/ÎCöþ",
-    "base32": "_j8as5h0201zw80m0zw="
+    "base128": "Ç2lfT7/ýà/ÎCöþ",
+    "base32": "_j86s5h0201zw80m0zwv"
   },
   {
     "type": "bytes-map",
-    "typeCode": 37,
+    "typeCode": 21,
     "value": {
       "a": [
         0,
@@ -48,7 +48,7 @@
         255
       ]
     },
-    "base128": "Ç8jd?671/SòJJD4/ýzþ",
-    "base32": "_j8jr58b1rg100zx1cb20507z$"
+    "base128": "Ç4jd?671/SòJJD4/ýzþ",
+    "base32": "_j8ar58b1rg100zx1cb20507zj"
   }
 ]

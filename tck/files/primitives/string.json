@@ -15,22 +15,22 @@
   },
   {
     "type": "string-list",
-    "typeCode": 16,
+    "typeCode": 8,
     "value": [
       "Hello, World!",
       ""
     ],
-    "base128": "Ç3FdèUÈêpOãÀ1ÛÜðpM3N/þ",
-    "base32": "_j8895ba8cnp6rvsc41bpywkccggt0z"
+    "base128": "Ç1FdèUÈêpOãÀ1ÛÜðpM3N/þ",
+    "base32": "_j8495ba8cnp6rvsc41bpywkccggt0q"
   },
   {
     "type": "string-map",
-    "typeCode": 32,
+    "typeCode": 16,
     "value": {
       "a": "Hello, World!",
       "b": ""
     },
-    "base128": "Ç7Dd?5ØÆlÙAÄ÷jzÕqÚËÄU5ÀàÎ/þ",
-    "base32": "_j8g858b1nn46av3cdwp20nvfe9p688d1cag0y"
+    "base128": "Ç3Dd?5ØÆlÙAÄ÷jzÕqÚËÄU5ÀàÎ/þ",
+    "base32": "_j88858b1nn46av3cdwp20nvfe9p688d1cag0e"
   }
 ]
