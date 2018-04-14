@@ -11,6 +11,7 @@ function createIDsFromValues(values, factory) {
   const IDs = values.map((value) => factory(value));
   IDs.push(factory.list(values));
   IDs.push(factory.map(mapFromValues(values)));
+  //todo list-of-lists, list-of-maps
   return IDs;
 }
 
