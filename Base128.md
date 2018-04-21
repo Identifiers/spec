@@ -1,14 +1,14 @@
-# Base-128 Encoding
+# Base128 Encoding
 ## Rationale
-Identifiers are often non-string values that need to be safely encoded as strings to exist in data systems. Other systems use binary-to-string encodings to accomplish this need, such as Base-32 or Base-64. Reusing these encodings is expedient, but not that practical, for the purpose of encoding identifiers as strings in data. The problems are size and complexity.
+Identifiers are often non-string values that need to be safely encoded as strings to exist in data systems. Other systems use binary-to-string encodings to accomplish this need, such as Base32 or Base64. Reusing these encodings is expedient, but not that practical, for the purpose of encoding identifiers as strings in data. The problems are size and complexity.
 
 ### Size
-Binary data encoded as Base-64 expands to be about 33% larger than the size of the data itself. The Base-64 encoding was designed for pre-Unicode systems where the only reliable cross-platform strings were ASCII characters. Base-128 encoding reduces this bloat by ~50% by using a modern symbol set to encode bytes. Base-128 uses the now-common UTF-8 Latin-1 block which shares visible characters with several popular character sets.
+Binary data encoded as Base64 expands to be about 33% larger than the size of the data itself. The Base64 encoding was designed for pre-Unicode systems where the only reliable cross-platform strings were ASCII characters. Base128 encoding reduces this bloat by ~50% by using a modern symbol set to encode bytes. Base128 uses the now-common UTF-8 Latin-1 block which shares visible characters with several popular character sets.
 
 ### Complexity
-Older binary encoding schemes like Base-64 were designed to transmit binary data with text systems like email and usenet. they included features like multi-line breaks, chunked delivery, line padding and character-aliasing, all which were helpful for sending binary data in human-driven formats like email.
+Older binary encoding schemes like Base64 were designed to transmit binary data with text systems like email and usenet. they included features like multi-line breaks, chunked delivery, line padding and character-aliasing, all which were helpful for sending binary data in human-driven formats like email.
 
-Base-128 is not meant for human-driven data transfer and won't need to support this complexity. It's goal is to live inside software-driven data systems with occasional human inspection.
+Base128 is not meant for human-driven data transfer and won't need to support this complexity. It's goal is to live inside software-driven data systems with occasional human inspection.
 
 ## Requirements
 This encoding should have the following characteristics:
@@ -22,8 +22,8 @@ This encoding should have the following characteristics:
   * Does not contain markers, delimiters or escape chars in these formats
 * Not confusable with other well-known encodings
 
-### Relationship to Base-32
-Identifiers also specifies a human-driven encoding format for use cases that require human-driven transimssion. Details can be found in the [Base-32 Encoding](Base-32.md) definition.
+### Relationship to Base32
+Identifiers also specifies a human-driven encoding format for use cases that require human-driven transimssion. Details can be found in the [Base32 Encoding](Base32.md) definition.
 
 ### Symbol Table
 |pos|char|code|  |pos|char|code|  |pos|char|code|  |pos|char|code|
@@ -63,7 +63,7 @@ Identifiers also specifies a human-driven encoding format for use cases that req
 
 
 ### End Marker
-An end marker identifies the string as a Base-128 encoded identifier. This marker, the thorn `þ` 0xFD character, terminates the string value This character is only used currently in Iceland (see https://en.wikipedia.org/wiki/Thorn_(letter)). Thorn is never at the end of a word so an encoded identifier shouldn't be confused with an Icelandic word.
+An end marker identifies the string as a Base128 encoded identifier. This marker, the thorn `þ` 0xFD character, terminates the string value This character is only used currently in Iceland (see https://en.wikipedia.org/wiki/Thorn_(letter)). Thorn is never at the end of a word so an encoded identifier shouldn't be confused with an Icelandic word.
 
 ### Regular Expression
-This regular expression can match a whole Base-128 encoded identifier: `[/-9?-Za-z¿-ý]{2,}þ`
+This regular expression can match a whole Base128 encoded identifier: `[/-9?-Za-z¿-ý]{2,}þ`

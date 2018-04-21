@@ -18,8 +18,9 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
-"identifiers-js@file:../../identifiers-js":
-  version "0.0.1"
+identifiers-js@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/identifiers-js/-/identifiers-js-0.1.0.tgz#a00d04b67151104131784820480f61d6f9e9607c"
   dependencies:
     int64-buffer "^0.1.10"
     js.spec "^1.0.0-23"

@@ -64,10 +64,10 @@ Identifiers have two forms of string encoding--Data and Human. These forms have 
 ## Data Form
 The data form is intended for identifiers that go into transmitted data like JSON and XML, as well as data storage like a SQL database. They are not intended for use in URIs and are not human-enterable, though they are composed of visible characters.
 
-Identifiers serialized for data purposes are encoded with a [Base128 symbol set](Base-128.md) for minimum size bloat and safe transferability.
+Identifiers serialized for data purposes are encoded with a [Base128 symbol set](Base128.md) for minimum size bloat and safe transferability.
 
 ## Human Form
-Identifiers are often consumed and entered by humans and thus have different constraints. Examples of this form are account identifiers, URLs and serial numbers. These identifiers are often encountered in messages like text and email. The specification can be found in the [Base32 specification](Base-32.md).
+Identifiers are often consumed and entered by humans and thus have different constraints. Examples of this form are account identifiers, URLs and serial numbers. These identifiers are often encountered in messages like text and email. The specification can be found in the [Base32 specification](Base32.md).
 
 # Implementations
 The following projects implement the Identifiers specification:
@@ -143,12 +143,12 @@ To create the type code for a list of `geo`s, Set the `list-of` flag bit (`0x20`
 `0x28b | 0x20 = 0x2ab`
 
 ## Encoding Format
-In order to encode an identifier, one must first encode it to bytes using the [MsgPack](https://msgpack.org) encoding format. These bytes are then encoded using either [Base128](Base-128.md) for data uses or [Base32](Base-32.md) for human uses. Implementations will auto-detect the encoding format and decode into an identifier value correctly.
+In order to encode an identifier, one must first encode it to bytes using the [MsgPack](https://msgpack.org) encoding format. These bytes are then encoded using either [Base128](Base128.md) for data uses or [Base32](Base32.md) for human uses. Implementations will auto-detect the encoding format and decode into an identifier value correctly.
 
 ### MsgPack
 Internally Identifiers are compressed [MsgPack data structures](https://msgpack.org). In order to interoperate with MsgPack correctly, One must pass the MsgPack encoder the following array:
 
-```js
+```
 [type-code, identifier-encode-value]
 ```
 Each identifier type has a specific encode value shape that must be met. Implementations will often have platform-specific formats of the identifier values, like native class representations, but these must be transformed into formats that are usable by MsgPack.
