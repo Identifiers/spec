@@ -6,9 +6,9 @@ event-lite@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/event-lite/-/event-lite-0.1.1.tgz#47cf08a8d37d0b694cdb7b3b17b51faac6576086"
 
-fs-extra@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-5.0.0.tgz#414d0110cdd06705734d055652c5411260c31abd"
+fs-extra@6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-6.0.1.tgz#8abc128f7946e310135ddc93b98bddb410e7a34b"
   dependencies:
     graceful-fs "^4.1.2"
     jsonfile "^4.0.0"
@@ -18,13 +18,13 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
-identifiers-js@0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/identifiers-js/-/identifiers-js-0.1.0.tgz#a00d04b67151104131784820480f61d6f9e9607c"
+identifiers-js@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/identifiers-js/-/identifiers-js-0.2.0.tgz#59066f1ea12e73c346eb027c8b2415ca50bc08b3"
   dependencies:
     int64-buffer "^0.1.10"
     js.spec "^1.0.0-23"
-    long "^3.2.0"
+    long "^4.0.0"
     msgpack-lite "^0.1.26"
 
 ieee754@^1.1.8:
@@ -125,9 +125,9 @@ lodash.issymbol@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/lodash.issymbol/-/lodash.issymbol-4.0.1.tgz#04ad41d96f3f4f399c37dd4fcf3c1b6901e16116"
 
-long@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/long/-/long-3.2.0.tgz#d821b7138ca1cb581c172990ef14db200b5c474b"
+long@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/long/-/long-4.0.0.tgz#9a7b71cfb7d361a194ea555241c92f7468d5bf28"
 
 msgpack-lite@^0.1.26:
   version "0.1.26"

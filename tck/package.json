@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "fs-extra": "5.0.0",
-    "identifiers-js": "0.1.0"
+    "fs-extra": "6.0.1",
+    "identifiers-js": "0.2.0"
   }
 }

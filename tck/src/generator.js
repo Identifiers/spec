@@ -30,8 +30,8 @@ function createTCKObject(ids) {
       type: codec.type,
       typeCode: codec.typeCode,
       value: id.value,
-      base128: id.toString(),
-      base32: id.toBase32String()
+      base128: id.toDataString(),
+      base32: id.toHumanString()
     }
   })
 }
