@@ -43,7 +43,7 @@ Identifiers also specifies a software-driven encoding format for use cases that 
 |35|**`=`**|0x3D|
 |36|**`u [U]`**|0x75, 0x55|
 
-The Checksum is calculated by summing the bytes in the encoded data, then calculating the modulo of 37.
+The Checksum is calculated by summing the _unsigned_ bytes in the encoded data, then calculating the modulo of 37. For platforms that have signed byte representations, one can convert it to an unsigned byte by `&`ing the signed byte with `0xff`.
 
 ### Regular Expression
 This regular expression can match a whole Base32 encoded identifier: `_[0-9A-VW-Za-vw-z]{2,}[0-9A-Za-z*~$=]`
