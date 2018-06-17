@@ -1,3 +1,6 @@
+## VERSION 0.0 Draft
+
+
 # What are Identifiers?
 Identifiers are data that identify a unique [entity](https://en.wikipedia.org/wiki/Entity) apart from other entities. The concept of [Identifiers](https://en.wikipedia.org/wiki/Identifier) has many uses in the world. In software, identifiers found in every facet of development. Some types of identifiers are standardized like [UUID](https://www.ietf.org/rfc/rfc4122.txt) and [URI](https://www.w3.org/Addressing/URL/uri-spec.html). Most identifiers, however, are not externally defined in a specification and are dependent on many factors specific to their application.
 
