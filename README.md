@@ -1,4 +1,4 @@
-## VERSION 0.0 Draft
+## VERSION 0.1 Draft
 
 
 # What are Identifiers?
@@ -36,6 +36,9 @@ A list identifier is a list of values. They are not a list of identifiers, but a
 
 #### Maps
 A map identifier is a map of values. Maps are useful to create a single identifier composed of multiple labeled values of the same type. These values are labeled by the map keys. The keys are stored in sorted order for consistency.
+
+#### Composite
+Composite identifiers combine other identifiers of mixed types into a single identifier. One can combine primitive identifiers, semantic identifiers and structured variants together into one composite identifier. They can be either a list or a map of other identifiers.
 
 ## Semantic Identifiers
 Semantic identifiers are based on either single or structured primitive identifiers. They can be considered to "extend" a base identifier type.
@@ -90,7 +93,7 @@ All primitive identifier types are associated with a 1-byte type code. Semantic 
 #### Byte 1 Positions
 |`0`|`1`|`2`|`3`|`4`|`5`|`6`|`7`|
 |---|---|---|---|---|---|---|---|
-|primitive|primitive|primitive|list|map|list-of|_reserved_|semantic|
+|primitive|primitive|primitive|list|map|list-of|composite|semantic|
 
 #### Structured Variants
 All identifier types also have structured variants that hold their values in collections. Their type codes combine the structural flags and the type code of the value. To create the full type code, `|` the appropriate structured type code to the base primitive type.
@@ -100,7 +103,7 @@ All identifier types also have structured variants that hold their values in col
 |`list`|`0x8`|[array](https://github.com/msgpack/msgpack/blob/master/spec.md#array-format-family)|
 |`map`|`0x10`|[map](https://github.com/msgpack/msgpack/blob/master/spec.md#map-format-family)|
 
-#### MsgPack?
+#### MsgPack
 String-encoded identifiers are compressed using [MsgPack](https://msgpack.org). More details are in the [following section](#encoding-format), but the related MsgPack information is included in the type tables for easy reference. 
 
 #### Primitive Types

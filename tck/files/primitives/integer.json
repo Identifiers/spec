@@ -3,36 +3,36 @@
     "type": "integer",
     "typeCode": 2,
     "value": -2147483648,
-    "base128": "Ç/Øb////þ",
-    "base32": "_j81d500000005"
+    "data": "Ç/Øb////þ",
+    "human": "_j81d500000005"
   },
   {
     "type": "integer",
     "typeCode": 2,
     "value": -32767,
-    "base128": "Ç/ØL/3þ",
-    "base32": "_j81d30015"
+    "data": "Ç/ØL/3þ",
+    "human": "_j81d30015"
   },
   {
     "type": "integer",
     "typeCode": 2,
     "value": 0,
-    "base128": "Ç/z/þ",
-    "base32": "_j81000"
+    "data": "Ç/z/þ",
+    "human": "_j81000"
   },
   {
     "type": "integer",
     "typeCode": 2,
     "value": 255,
-    "base128": "Ç/×Íöþ",
-    "base32": "_j81cszrf"
+    "data": "Ç/×Íöþ",
+    "human": "_j81cszrf"
   },
   {
     "type": "integer",
     "typeCode": 2,
     "value": 2147483647,
-    "base128": "Ç/×åýýýýþ",
-    "base32": "_j81cwzzzzzzgs"
+    "data": "Ç/×åýýýýþ",
+    "human": "_j81cwzzzzzzgs"
   },
   {
     "type": "integer-list",
@@ -44,8 +44,8 @@
       255,
       2147483647
     ],
-    "base128": "Ç1ÐÛH////nj/72MýåSýýýúþ",
-    "base32": "_j859bmm000001mc0040cszyefzzzzzrp"
+    "data": "Ç1ÐÛH////nj/72MýåSýýýúþ",
+    "human": "_j859bmm000001mc0040cszyefzzzzzrp"
   },
   {
     "type": "integer-map",
@@ -57,7 +57,7 @@
       "d": 255,
       "e": 2147483647
     },
-    "base128": "Ç3ÎØ?6Y////9??W//æfj44ÇÊýæfÚñýýýýzþ",
-    "base32": "_j898b8b1ta000000m5hd3001m5hg18b4skzt2seefzzzzzrk"
+    "data": "Ç3ÎØ?6Y////9??W//æfj44ÇÊýæfÚñýýýýzþ",
+    "human": "_j898b8b1ta000000m5hd3001m5hg18b4skzt2seefzzzzzrk"
   }
 ]

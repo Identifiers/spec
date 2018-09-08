@@ -22,8 +22,8 @@
         0
       ]
     },
-    "base128": "ÇmDÚTz//////////////////þ",
-    "base32": "_jb68bh0g00000000000000000000000000x"
+    "data": "ÇmDÚTz//////////////////þ",
+    "human": "_jb68bh0g00000000000000000000000000x"
   },
   {
     "type": "uuid",
@@ -48,8 +48,8 @@
         139
       ]
     },
-    "base128": "ÇmDÚT¿ûñÁ8ÅgöÅÏnmÁØÝÂûá?þ",
-    "base32": "_jb68bh0gfvsrc9htvw8yhd371vazh7vhhcc"
+    "data": "ÇmDÚT¿ûñÁ8ÅgöÅÏnmÁØÝÂûá?þ",
+    "human": "_jb68bh0gfvsrc9htvw8yhd371vazh7vhhcc"
   },
   {
     "type": "uuid",
@@ -74,8 +74,8 @@
         62
       ]
     },
-    "base128": "ÇmDÚTÀoåô×àXðoUt8ûgàèÎîxþ",
-    "base32": "_jb68bh0gkbkytsrj9s6n1egkynq2tn1r7r1"
+    "data": "ÇmDÚTÀoåô×àXðoUt8ûgàèÎîxþ",
+    "human": "_jb68bh0gkbkytsrj9s6n1egkynq2tn1r7r1"
   },
   {
     "type": "uuid",
@@ -100,8 +100,8 @@
         255
       ]
     },
-    "base128": "ÇmDÚTÁýýýýýýýýýýýýýýýýýýþ",
-    "base32": "_jb68bh0gzzzzzzzzzzzzzzzzzzzzzzzzzw2"
+    "data": "ÇmDÚTÁýýýýýýýýýýýýýýýýýýþ",
+    "human": "_jb68bh0gzzzzzzzzzzzzzzzzzzzzzzzzzw2"
   },
   {
     "type": "uuid-list",
@@ -188,8 +188,8 @@
         ]
       }
     ],
-    "base128": "ÇmE×ZDT//////////////////k16õÌ@ZQqàRÃÏÌBèüGõ@i7DËsûÔrÇPËbhÀyerØÒPCÖ¿6ýýýýýýýýýýýýýýýýýüþ",
-    "base32": "_jb68v564200000000000000000000000000c843yye32cepz27mb8sretqw9ywcbrg89nszdcw94wkagq89zavhdagw3xh0gzzzzzzzzzzzzzzzzzzzzzzzzzw9"
+    "data": "ÇmE×ZDT//////////////////k16õÌ@ZQqàRÃÏÌBèüGõ@i7DËsûÔrÇPËbhÀyerØÒPCÖ¿6ýýýýýýýýýýýýýýýýýüþ",
+    "human": "_jb68v564200000000000000000000000000c843yye32cepz27mb8sretqw9ywcbrg89nszdcw94wkagq89zavhdagw3xh0gzzzzzzzzzzzzzzzzzzzzzzzzzw9"
   },
   {
     "type": "uuid-map",
@@ -276,7 +276,7 @@
         ]
       }
     },
-    "base128": "ÇmFÖY4ÁÂ7//////////////////9??7DyvîàkéxEòg@îôÕïSràòJRDUNñùfïFsNÎÛ3üÔïobrSbfÊTÁýýýýýýýýýýýýýýýýýýþ",
-    "base32": "_jb69b151c7210000000000000000000000000051cb210zqkgrk3nqrhx2t6e3pnz2fq32x1cf2116q7xnkh4kjda2x17xbe5na3gfn1ck211zzzzzzzzzzzzzzzzzzzzzzzzzr3"
+    "data": "ÇmFÖY4ÁÂ7//////////////////9??7DyvîàkéxEòg@îôÕïSràòJRDUNñùfïFsNÎÛ3üÔïobrSbfÊTÁýýýýýýýýýýýýýýýýýýþ",
+    "human": "_jb69b151c7210000000000000000000000000051cb210zqkgrk3nqrhx2t6e3pnz2fq32x1cf2116q7xnkh4kjda2x17xbe5na3gfn1ck211zzzzzzzzzzzzzzzzzzzzzzzzzr3"
   }
 ]

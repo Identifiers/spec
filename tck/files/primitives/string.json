@@ -3,15 +3,15 @@
     "type": "string",
     "typeCode": 0,
     "value": "Hello, World!",
-    "base128": "Ç/IÒÁIÖêqÉ34uwâêl7Tþ",
-    "base32": "_j80atj35dhp6yb10axqq4v34445"
+    "data": "Ç/IÒÁIÖêqÉ34uwâêl7Tþ",
+    "human": "_j80atj35dhp6yb10axqq4v34445"
   },
   {
     "type": "string",
     "typeCode": 0,
     "value": "",
-    "base128": "Ç/H/þ",
-    "base32": "_j80a0a"
+    "data": "Ç/H/þ",
+    "human": "_j80a0a"
   },
   {
     "type": "string-list",
@@ -20,8 +20,8 @@
       "Hello, World!",
       ""
     ],
-    "base128": "Ç1FdèUÈêpOãÀ1ÛÜðpM3N/þ",
-    "base32": "_j8495ba8cnp6rvsc41bpywkccggt0q"
+    "data": "Ç1FdèUÈêpOãÀ1ÛÜðpM3N/þ",
+    "human": "_j8495ba8cnp6rvsc41bpywkccggt0q"
   },
   {
     "type": "string-map",
@@ -30,7 +30,7 @@
       "a": "Hello, World!",
       "b": ""
     },
-    "base128": "Ç3Dd?5ØÆlÙAÄ÷jzÕqÚËÄU5ÀàÎ/þ",
-    "base32": "_j88858b1nn46av3cdwp20nvfe9p688d1cag0e"
+    "data": "Ç3Dd?5ØÆlÙAÄ÷jzÕqÚËÄU5ÀàÎ/þ",
+    "human": "_j88858b1nn46av3cdwp20nvfe9p688d1cag0e"
   }
 ]

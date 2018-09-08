@@ -6,8 +6,8 @@
       0,
       127
     ],
-    "base128": "Ç0rzD0üþ",
-    "base32": "_j82w80g0fw*"
+    "data": "Ç0rzD0üþ",
+    "human": "_j82w80g0fw*"
   },
   {
     "type": "bytes",
@@ -16,8 +16,8 @@
       128,
       255
     ],
-    "base128": "Ç0rzH2üþ",
-    "base32": "_j82w80m0zwx"
+    "data": "Ç0rzH2üþ",
+    "human": "_j82w80m0zwx"
   },
   {
     "type": "bytes-list",
@@ -32,8 +32,8 @@
         255
       ]
     ],
-    "base128": "Ç2lfT7/ýà/ÎCöþ",
-    "base32": "_j86s5h0201zw80m0zwv"
+    "data": "Ç2lfT7/ýà/ÎCöþ",
+    "human": "_j86s5h0201zw80m0zwv"
   },
   {
     "type": "bytes-map",
@@ -48,7 +48,7 @@
         255
       ]
     },
-    "base128": "Ç4jd?671/SòJJD4/ýzþ",
-    "base32": "_j8ar58b1rg100zx1cb20507zj"
+    "data": "Ç4jd?671/SòJJD4/ýzþ",
+    "human": "_j8ar58b1rg100zx1cb20507zj"
   }
 ]
