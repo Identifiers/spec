@@ -7,6 +7,6 @@
   "private": true,
   "dependencies": {
     "fs-extra": "7.0.0",
-    "identifiers-js": "0.3.0"
+    "identifiers-js": "0.3.1"
   }
 }
