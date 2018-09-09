@@ -4,14 +4,16 @@
     "typeCode": 1,
     "value": true,
     "data": "Ç/rjþ",
-    "human": "_j80w69"
+    "human": "_j80w69",
+    "mixedHuman": "_j80w69"
   },
   {
     "type": "boolean",
     "typeCode": 1,
     "value": false,
     "data": "Ç/rTþ",
-    "human": "_j80w48"
+    "human": "_j80w48",
+    "mixedHuman": "_j80w48"
   },
   {
     "type": "boolean-list",
@@ -21,7 +23,8 @@
       false
     ],
     "data": "Ç1lfR7þ",
-    "human": "_j84s5gy2r"
+    "human": "_j84s5gy2r",
+    "mixedHuman": "_j84s5gy2r"
   },
   {
     "type": "boolean-map",
@@ -31,6 +34,7 @@
       "b": false
     },
     "data": "Ç3jd?66Ukjzþ",
-    "human": "_j88r58blrEgp5gGf"
+    "human": "_j88r58b1regp5ggf",
+    "mixedHuman": "_j88r58blrEgp5gGf"
   }
 ]

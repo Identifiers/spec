@@ -1,334 +1,341 @@
 [
   {
-    "a": {
-      "type": "string",
-      "value": "watch"
-    },
-    "b": {
-      "type": "string-list",
-      "value": [
-        "me",
-        "now"
-      ]
-    },
-    "ba": {
-      "type": "geo-map",
-      "value": {
-        "bl": {
-          "latitude": 18.948649,
-          "longitude": -160.773079
-        },
-        "br": {
-          "latitude": 18.797524,
-          "longitude": -154.699062
-        },
-        "tl": {
-          "latitude": 22.308184,
-          "longitude": -160.762813
-        },
-        "tr": {
-          "latitude": 22.205865,
-          "longitude": -154.652198
+    "type": "composite-map",
+    "typeCode": 80,
+    "value": {
+      "a": {
+        "type": "string",
+        "value": "watch"
+      },
+      "b": {
+        "type": "string-list",
+        "value": [
+          "me",
+          "now"
+        ]
+      },
+      "ba": {
+        "type": "geo-map",
+        "value": {
+          "bl": {
+            "latitude": 18.948649,
+            "longitude": -160.773079
+          },
+          "br": {
+            "latitude": 18.797524,
+            "longitude": -154.699062
+          },
+          "tl": {
+            "latitude": 22.308184,
+            "longitude": -160.762813
+          },
+          "tr": {
+            "latitude": 22.205865,
+            "longitude": -154.652198
+          }
         }
-      }
-    },
-    "c": {
-      "type": "string-map",
-      "value": {
-        "a": "cats",
-        "b": "dogs"
-      }
-    },
-    "d": {
-      "type": "boolean",
-      "value": false
-    },
-    "e": {
-      "type": "boolean-list",
-      "value": [
-        true,
-        false
-      ]
-    },
-    "f": {
-      "type": "boolean-map",
-      "value": {
-        "a": false,
-        "b": true
-      }
-    },
-    "g": {
-      "type": "integer",
-      "value": 5574
-    },
-    "h": {
-      "type": "integer-list",
-      "value": [
-        1,
-        2
-      ]
-    },
-    "i": {
-      "type": "integer-map",
-      "value": {
-        "x": 10,
-        "y": 100,
-        "z": -10
-      }
-    },
-    "j": {
-      "type": "float",
-      "value": 0.01
-    },
-    "k": {
-      "type": "float-list",
-      "value": [
-        13.2,
-        -9.834
-      ]
-    },
-    "l": {
-      "type": "float-map",
-      "value": {
-        "d": -0.023,
-        "t": 59.2
-      }
-    },
-    "m": {
-      "type": "long",
-      "value": {
-        "high": 15,
-        "low": -1043629193
-      }
-    },
-    "n": {
-      "type": "long-list",
-      "value": [
-        {
-          "high": 0,
-          "low": 647585
-        },
-        {
-          "high": -1,
-          "low": -8474
+      },
+      "c": {
+        "type": "string-map",
+        "value": {
+          "a": "cats",
+          "b": "dogs"
         }
-      ]
-    },
-    "o": {
-      "type": "long-map",
-      "value": {
-        "a": {
-          "high": 0,
-          "low": 1
-        },
-        "b": {
-          "high": 0,
-          "low": 2
+      },
+      "d": {
+        "type": "boolean",
+        "value": false
+      },
+      "e": {
+        "type": "boolean-list",
+        "value": [
+          true,
+          false
+        ]
+      },
+      "f": {
+        "type": "boolean-map",
+        "value": {
+          "a": false,
+          "b": true
         }
-      }
-    },
-    "p": {
-      "type": "bytes",
-      "value": [
-        127,
-        0,
-        255
-      ]
-    },
-    "q": {
-      "type": "bytes-list",
-      "value": [
-        [
+      },
+      "g": {
+        "type": "integer",
+        "value": 5574
+      },
+      "h": {
+        "type": "integer-list",
+        "value": [
           1,
-          0
-        ],
-        [
-          99
+          2
         ]
-      ]
-    },
-    "r": {
-      "type": "bytes-map",
-      "value": {
-        "j": [
-          1
-        ],
-        "k": [
-          2,
-          3
+      },
+      "i": {
+        "type": "integer-map",
+        "value": {
+          "x": 10,
+          "y": 100,
+          "z": -10
+        }
+      },
+      "j": {
+        "type": "float",
+        "value": 0.01
+      },
+      "k": {
+        "type": "float-list",
+        "value": [
+          13.2,
+          -9.834
         ]
-      }
-    },
-    "s": {
-      "type": "uuid",
-      "value": {
-        "bytes": [
-          211,
-          108,
-          251,
-          19,
-          188,
-          209,
-          74,
-          178,
-          182,
-          23,
-          37,
-          120,
-          248,
-          162,
-          176,
-          198
+      },
+      "l": {
+        "type": "float-map",
+        "value": {
+          "d": -0.023,
+          "t": 59.2
+        }
+      },
+      "m": {
+        "type": "long",
+        "value": {
+          "high": 15,
+          "low": -1043629193
+        }
+      },
+      "n": {
+        "type": "long-list",
+        "value": [
+          {
+            "high": 0,
+            "low": 647585
+          },
+          {
+            "high": -1,
+            "low": -8474
+          }
         ]
-      }
-    },
-    "t": {
-      "type": "uuid-list",
-      "value": [
-        {
-          "bytes": [
-            63,
-            97,
-            86,
-            72,
-            132,
-            59,
-            79,
-            76,
-            167,
-            196,
-            90,
-            27,
-            123,
-            111,
-            47,
-            254
+      },
+      "o": {
+        "type": "long-map",
+        "value": {
+          "a": {
+            "high": 0,
+            "low": 1
+          },
+          "b": {
+            "high": 0,
+            "low": 2
+          }
+        }
+      },
+      "p": {
+        "type": "bytes",
+        "value": [
+          127,
+          0,
+          255
+        ]
+      },
+      "q": {
+        "type": "bytes-list",
+        "value": [
+          [
+            1,
+            0
+          ],
+          [
+            99
           ]
-        },
-        {
-          "bytes": [
-            61,
-            71,
-            206,
-            25,
-            124,
-            94,
-            70,
-            210,
-            186,
-            172,
-            240,
-            122,
-            84,
-            4,
-            56,
-            127
+        ]
+      },
+      "r": {
+        "type": "bytes-map",
+        "value": {
+          "j": [
+            1
+          ],
+          "k": [
+            2,
+            3
           ]
         }
-      ]
-    },
-    "u": {
-      "type": "uuid-map",
-      "value": {
-        "l": {
+      },
+      "s": {
+        "type": "uuid",
+        "value": {
           "bytes": [
-            7,
-            97,
-            239,
-            181,
-            56,
-            83,
+            211,
+            108,
+            251,
+            19,
+            188,
+            209,
             74,
-            80,
-            183,
-            157,
-            231,
-            91,
-            113,
-            75,
-            65,
-            238
-          ]
-        },
-        "m": {
-          "bytes": [
-            172,
-            10,
-            38,
-            237,
-            111,
-            198,
-            66,
-            157,
-            128,
-            222,
-            163,
-            102,
-            75,
-            84,
-            53,
-            152
-          ]
-        },
-        "n": {
-          "bytes": [
-            52,
-            53,
-            102,
-            150,
-            123,
-            87,
-            68,
-            89,
-            175,
-            149,
-            45,
-            83,
-            64,
-            103,
-            221,
-            143
+            178,
+            182,
+            23,
+            37,
+            120,
+            248,
+            162,
+            176,
+            198
           ]
         }
-      }
-    },
-    "v": {
-      "type": "datetime",
-      "value": "1970-01-01T00:00:00.001Z"
-    },
-    "w": {
-      "type": "datetime-list",
-      "value": [
-        "1969-12-31T23:43:20.000Z",
-        "1970-01-02T03:43:08.995Z"
-      ]
-    },
-    "x": {
-      "type": "datetime-map",
-      "value": {
-        "f": "1970-01-01T00:00:00.099Z",
-        "t": "1970-01-01T00:00:10.000Z"
-      }
-    },
-    "y": {
-      "type": "geo",
-      "value": {
-        "latitude": 55.342,
-        "longitude": -90
-      }
-    },
-    "z": {
-      "type": "geo-list",
-      "value": [
-        {
-          "latitude": 1,
-          "longitude": 1
-        },
-        {
-          "latitude": -10,
-          "longitude": -10
+      },
+      "t": {
+        "type": "uuid-list",
+        "value": [
+          {
+            "bytes": [
+              63,
+              97,
+              86,
+              72,
+              132,
+              59,
+              79,
+              76,
+              167,
+              196,
+              90,
+              27,
+              123,
+              111,
+              47,
+              254
+            ]
+          },
+          {
+            "bytes": [
+              61,
+              71,
+              206,
+              25,
+              124,
+              94,
+              70,
+              210,
+              186,
+              172,
+              240,
+              122,
+              84,
+              4,
+              56,
+              127
+            ]
+          }
+        ]
+      },
+      "u": {
+        "type": "uuid-map",
+        "value": {
+          "l": {
+            "bytes": [
+              7,
+              97,
+              239,
+              181,
+              56,
+              83,
+              74,
+              80,
+              183,
+              157,
+              231,
+              91,
+              113,
+              75,
+              65,
+              238
+            ]
+          },
+          "m": {
+            "bytes": [
+              172,
+              10,
+              38,
+              237,
+              111,
+              198,
+              66,
+              157,
+              128,
+              222,
+              163,
+              102,
+              75,
+              84,
+              53,
+              152
+            ]
+          },
+          "n": {
+            "bytes": [
+              52,
+              53,
+              102,
+              150,
+              123,
+              87,
+              68,
+              89,
+              175,
+              149,
+              45,
+              83,
+              64,
+              103,
+              221,
+              143
+            ]
+          }
         }
-      ]
-    }
+      },
+      "v": {
+        "type": "datetime",
+        "value": "1970-01-01T00:00:00.001Z"
+      },
+      "w": {
+        "type": "datetime-list",
+        "value": [
+          "1969-12-31T23:43:20.000Z",
+          "1970-01-02T03:43:08.995Z"
+        ]
+      },
+      "x": {
+        "type": "datetime-map",
+        "value": {
+          "f": "1970-01-01T00:00:00.099Z",
+          "t": "1970-01-01T00:00:10.000Z"
+        }
+      },
+      "y": {
+        "type": "geo",
+        "value": {
+          "latitude": 55.342,
+          "longitude": -90
+        }
+      },
+      "z": {
+        "type": "geo-list",
+        "value": [
+          {
+            "latitude": 1,
+            "longitude": 1
+          },
+          {
+            "latitude": -10,
+            "longitude": -10
+          }
+        ]
+      }
+    },
+    "data": "ÇHOÞ/ìÀßÇ/HÕu4æánbfcDVYVp×npñwíVkLlfæ9q3ÏLËÇJg/l÷pÓFñ7aÉÞM2?æzÕÅKbÊaHÉJzMm4bÁa@ëãî@oløìÃx1òaWlYÉTAÇìcJFZÀðö5TßÏôåyØèGÏãFãÎ5áYÌWFl5÷v2AcÜåIà7Ã4ÅF7TÒJAEÄßtPòJIEÆímÚòJXÆ2ÀÎ×lTÊÉ6ÀÎ×ÐU@9ÀßßbffQ4ÍF0mVÚo4ÏF4XzDI4ÑF8TòKzdÀ÷lbiio4ÓF0ðåöWéÀÅÕ4Ct?hX?Çlæ1ÑMÊämMÊêÜ/Åe028OÐøÀêÇ3îd?GKyÉácû÷ëÆØÎÛMn1pmMÊämMÓ4ÙF1nÞ///S¿ãÜìø?tX@Çmz/Í5ÁÑýýýýýýýÜñbg÷DÐ4UjznJD9ÀîÇ0rzOú0ýÎÚlTêÉ71/zLz?BÀðÇ4jd?e70/ægvT732ÎÚðfâK7DçÙSkQñVÈ×gÀðeáïVÖkÒKXÉMAÇk12ù4fÆÀBçòãS7ØAÜëðýù7DRÏ÷ßÉïvÄçhÓÍ2çb3PSòKfÉMI¿ægÊTzBßõëa4NcUqÌ÷éq9g2ìÎÙr¿4jHZôÙöâHô0ÜÏ×ÇoUÔkUqk12UÓËJwÓæÃËxdgcÎ@ûêxÀôÇmTLT5ÀõÇmTLâÉYýöir@îKãbßæi8Jn2H¿bfäQ4çËGÂHKÊÉN1Ãâ×n1hÕÄÑùñÙJÀËUwX×ÎIhYF/zliqÖþ",
+    "human": "_j98dw00vm5gs4055exgq8rv8m5h9424jm9ppb8vedxvt4rk1jb6g56w4m9h6s4pb80sf5pn95sh17jy0cgcbt41brwqa4rkjjb5m0cpc5a46khkdsf066njypx2qr2x2ehp95jt06s7ea9c94t2wqg3431mfdkqytth78wmjsd03cd5kj69686ybr1hn9qpeaw88h8b3j88858b1mhhp2x3km5ha8s3fcxst2s4j071a2scj169c7gn1ct9130n1c71a2rp3m5ks40pd2q3a2t4j1a9020n1d69150x1f05a2yb4m5xfd8baj81wpfw4fbgmfbgmfegpq4gbjb5m0ak6csk6csk6sf027ar21h4vmqn1dj9170n1ck5vz5wd9zfkps2tm5tcpg2dk6csk6cskagpv4g4tc00000fr75qpxx1dt90s4pe004y38ekzzzzzzzzzzfed8bfj8a858b106gp40n1e290bh03fw0fz8bhj86s5h02040c80b3m5s945c2m5nc8081m5nw80g20egq74pcgq211mvczc9vsmaapav1e9brz2hb1hn1ej9cs3cjrg83yrap9223pktcmz25m6vvdwqzxh0g7n3ww6bwbs3d5ency1x5811rfygqb4pcjp1t2v64203p3vxn719mmm5qkqknpwab87qa2ve422p0m9qddz3457c0vthpcjtm6pca2vp420t3asmpfdbm8pdfjmpn6g37vp7t2xmjsm0r80d1ey9ct0ccjb9fzw5xr370bwn8regqh4pd06a858b6cegq9k9722gqk4pd0a5s5jt09enwd9zfkpsd19n1fa9ct0nbja9020cjyvv0h",
+    "mixedHuman": "_j98dWo0vm5gs4o55exgQ8rv8M5h9424jm9Ppb8vEdxvt4rkljB6g56W4m9h6s4pb8osf5Pn95sHl7jyOcgcbT41brWqa4rKjjb5M0cpc5a46kHkdsf066njYpx2qR2x2eHp95jTo6s7Ea9c94t2wqG343iMfdkqYtth78wmjsD03cd5kj69686ybRihn9Qpeaw88h8b3j88858blmHhp2x3km5hA8s3fCxst2S4j071a2scJ169c7gnlcT9l3oNlc71A2rp3M5ks4Opd2q3a2t4J1a9o2onld69l5oXlfo5A2yb4M5xfd8baj81wpfw4fbgmFbgmfEgpq4Gbjb5M0ak6Csk6cSk6sf027ar21h4vMqnldJ9l7oNlck5Vz5wd9zfkpS2tm5Tcpg2Dk6csK6cskAgpv4G4tc0O0o0fR75qpXxldt9os4pE0o4y38ekzZzzzzZzzzfEd8bfJ8a858bl06Gp4onLe29oBh03fW0fz8Bhj86S5h02040c8Ob3m5S945c2m5nc8o8lm5nw8oG20egQ74pcGq2l1Mvczc9vsmaApavlE9brz2hb1hNlej9Cs3cjRg83yRap9223pktCmz25M6vvdWqzxh0g7n3Ww6bwBs3d5EncyiX58i1RfygqB4pcjP1t2v642o3P3vxn7i9mmM5qkqKnpwaB87qa2ve422pom9Qddz3457coVthpcJtm6pCa2vp42ot3AsmpfDbm8pDfjmpN6g37Vp7t2Xmjsm0r8odLey9cToccjB9fzw5xr37Obwn8Regqh4pd06A858b6cegq9k9722gqk4Pd0a5S5jto9enwd9zfkpSd19nLfa9cTonbjA9o2oCjyvvOh"
   }
 ]

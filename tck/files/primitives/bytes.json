@@ -7,7 +7,8 @@
       127
     ],
     "data": "Ç0rzD0üþ",
-    "human": "_j82w8ogofW*"
+    "human": "_j82w80g0fw*",
+    "mixedHuman": "_j82w8ogofW*"
   },
   {
     "type": "bytes",
@@ -17,7 +18,8 @@
       255
     ],
     "data": "Ç0rzH2üþ",
-    "human": "_j82w8omozWx"
+    "human": "_j82w80m0zwx",
+    "mixedHuman": "_j82w8omozWx"
   },
   {
     "type": "bytes-list",
@@ -33,7 +35,8 @@
       ]
     ],
     "data": "Ç2lfT7/ýà/ÎCöþ",
-    "human": "_j86s5h020Izw8oMozwv"
+    "human": "_j86s5h0201zw80m0zwv",
+    "mixedHuman": "_j86s5h020Izw8oMozwv"
   },
   {
     "type": "bytes-map",
@@ -49,6 +52,7 @@
       ]
     },
     "data": "Ç4jd?671/SòJJD4/ýzþ",
-    "human": "_j8ar58blrG1o0zXlcb2O5o7zJ"
+    "human": "_j8ar58b1rg100zx1cb20507zj",
+    "mixedHuman": "_j8ar58blrG1o0zXlcb2O5o7zJ"
   }
 ]

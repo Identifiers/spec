@@ -4,35 +4,40 @@
     "typeCode": 3,
     "value": 5e-324,
     "data": "Ç/÷j////////7þ",
-    "human": "_j81wPo0o0O0o0o0o04m"
+    "human": "_j81wp0000000000004m",
+    "mixedHuman": "_j81wPo0o0O0o0o0o04m"
   },
   {
     "type": "float",
     "typeCode": 3,
     "value": -900.11,
     "data": "Ç/÷v3j¿ßWéÀÅÖþ",
-    "human": "_j81wQg4c43gmfbGmfc$"
+    "human": "_j81wqg4c43gmfbgmfc$",
+    "mixedHuman": "_j81wQg4c43gmfbGmfc$"
   },
   {
     "type": "float",
     "typeCode": 3,
     "value": 0.1,
     "data": "Ç/÷mûämMÊämMÎþ",
-    "human": "_j81wPfxsk6csk6Csk82"
+    "human": "_j81wpfxsk6csk6csk82",
+    "mixedHuman": "_j81wPfxsk6csk6Csk82"
   },
   {
     "type": "float",
     "typeCode": 3,
     "value": 88.44323,
     "data": "Ç/÷n1ÖrÛîÕHêÎþ",
-    "human": "_j81wPg2p3Hey2q56s8d"
+    "human": "_j81wpg2p3hey2q56s8d",
+    "mixedHuman": "_j81wPg2p3Hey2q56s8d"
   },
   {
     "type": "float",
     "typeCode": 3,
     "value": 1.7976931348623157e+308,
     "data": "Ç/÷qýyýýýýýýöþ",
-    "human": "_j81wPzzfzZzzzzZzzww"
+    "human": "_j81wpzzfzzzzzzzzzww",
+    "mixedHuman": "_j81wPzzfzZzzzzZzzww"
   },
   {
     "type": "float-list",
@@ -45,7 +50,8 @@
       1.7976931348623157e+308
     ],
     "data": "Ç1ðÚÖ////////6KzÄ7PHwrbùãÍõMÊämMÊä×n1ÖrÛîÕHêÔgýíýýýýýýüþ",
-    "human": "_j85sBjro0O0o0o0o0o0Wqg4c43gmfBgmff5kzecSk6csK6ctsD05c72xw5eAdjpbFzqzzZzzzzZzyw"
+    "human": "_j85sbjr000000000000wqg4c43gmfbgmff5kzecsk6csk6ctsd05c72xw5eadjpbfzqzzzzzzzzzyw",
+    "mixedHuman": "_j85sBjro0O0o0o0o0o0Wqg4c43gmfBgmff5kzecSk6csK6ctsD05c72xw5eAdjpbFzqzzZzzzzZzyw"
   },
   {
     "type": "float-map",
@@ -58,6 +64,7 @@
       "e": 1.7976931348623157e+308
     },
     "data": "Ç3îØ?6J////////0ÎÖ×v3j¿ßWéÀÅÛ4ÅÉSìmMÊämMËbfÊØ0fPhöeÈpdÀããÝûýýýýýýýÞþ",
-    "human": "_j89rB8blsC0o0o0o0o0O0odlCb5w131ow53tw53Vm5hwPfxsk6csk6CskagP9jtoAre5vRawmv5a2seBfzqzZzzzzZzzys"
+    "human": "_j89rb8b1sc000000000000d1cb5w1310w53tw53vm5hwpfxsk6csk6cskagp9jt0are5vrawmv5a2sebfzqzzzzzzzzzys",
+    "mixedHuman": "_j89rB8blsC0o0o0o0o0O0odlCb5w131ow53tw53Vm5hwPfxsk6csk6CskagP9jtoAre5vRawmv5a2seBfzqzZzzzzZzzys"
   }
 ]

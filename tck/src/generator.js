@@ -41,7 +41,8 @@ const CODEC = Symbol.for('id-codec');
 function createTCKObject(ids) {
   return ids.map((id) => {
     const codec = id[CODEC];
-    const humanString = id.toHumanString()
+    const human = id.toHumanString();
+    const mixed = human
       .split('')
       .map(maybeReplaceChar)
       .join('');
@@ -51,7 +52,8 @@ function createTCKObject(ids) {
       typeCode: codec.typeCode,
       value: id.value,
       data: id.toDataString(),
-      human: humanString
+      human: human,
+      mixedHuman: mixed
     }
   })
 }

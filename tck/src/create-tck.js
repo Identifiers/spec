@@ -162,14 +162,14 @@ function generateCompositeTCK() {
 
   function hoistListIDInfo(listId) {
     return {...listId, value: listId.value.map(
-              (id) => hoistIDInfo(id))
+            (id) => hoistIDInfo(id))
     };
   }
 
   function hoistMapIDInfo(mapId) {
-    return Object.keys(mapId.value).reduce(
+    return {...mapId, value: Object.keys(mapId.value).reduce(
             (acc, key) => ({...acc, [key]: hoistIDInfo(mapId.value[key])}),
-            {});
+            {})};
   }
   function hoistIDInfo(id) {
     return {
