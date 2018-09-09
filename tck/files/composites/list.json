@@ -3,38 +3,338 @@
     "type": "composite-list",
     "typeCode": 72,
     "value": [
-      "Ç/HÕu4æán/þ",
-      "Ç1FdGoÉWqOìîþ",
-      "Ç3Dd?5ÆájÛBt?9Æâq×ìjþ",
-      "Ç/rTþ",
-      "Ç1lfR7þ",
-      "Ç3jd?64UkjÞþ",
-      "Ç/×ÏhLþ",
-      "Ç1ÐT77þ",
-      "Ç3Ît?ÞIUv×HKÕÖþ",
-      "Ç/÷múEóßWéÀÅÖþ",
-      "Ç1ðfØ/ÒämMÊämOKzEèÞTàZòÜþ",
-      "Ç3îd?GKyÉácû÷ëÆØÎÛMn1pmMÊämMÎþ",
-      "Ç0Nj///CÞðíqrþ",
-      "Ç2Ffî/GßÎòýýýýýýýõÚÞþ",
-      "Ç4Dd?32Uk/zþ",
-      "Ç0rzOú0ýþ",
-      "Ç2lfT71/à/fjþ",
-      "Ç4jd?e70/ægvT732þ",
-      "ÇmDÚTÁZêûÂõË9dãp?ÇiCÃ9ßÄþ",
-      "ÇmE×JDTyjÓÇ7UëRÊÑï?UÙëÜiýk12èSPMxKÆëIè×îwI/ÁÁúþ",
-      "ÇmFÖQ4×Â70êRûÒîÑYHJ÷íQpïYÎwè?q7DÔ1Âìéy@ÀÌÞOèOMJÒNäHJôDTnN×ÐåØÛ7×ÕãYÓN0ÍÛÅzþ",
-      "ÇmTLT3þ",
-      "ÇmTLâÉYýöir@îKãbßzþ",
-      "ÇmTMX9ÀäkæhÊçPTþ",
-      "ÇmTLT3þ",
-      "ÇmTLâÉYýöir@îKãbßzþ",
-      "ÇmTMX9ÀäkæhÊçPTþ",
-      "ÇmTbÚÉJzYèöèyxulæczþ",
-      "ÇmTdÚÈX0/âÜíjþ",
-      "ÇmTcÚFÂàpX×n0ÉãØÒÉÊURi/â@iV1ÜPÛVkPÐfØ/ãÊIVAPmqKzkÓÉétIö?ÏQAÇJg/pasXÖÇN?ÉÞM25ÅÙQüébÌÅHÉJzOAJs@ÇÆOãî@oZùPÕ7V/þ"
+      {
+        "type": "string",
+        "value": "watch"
+      },
+      {
+        "type": "string-list",
+        "value": [
+          "me",
+          "now"
+        ]
+      },
+      {
+        "type": "string-map",
+        "value": {
+          "a": "cats",
+          "b": "dogs"
+        }
+      },
+      {
+        "type": "boolean",
+        "value": false
+      },
+      {
+        "type": "boolean-list",
+        "value": [
+          true,
+          false
+        ]
+      },
+      {
+        "type": "boolean-map",
+        "value": {
+          "a": false,
+          "b": true
+        }
+      },
+      {
+        "type": "integer",
+        "value": 5574
+      },
+      {
+        "type": "integer-list",
+        "value": [
+          1,
+          2
+        ]
+      },
+      {
+        "type": "integer-map",
+        "value": {
+          "x": 10,
+          "y": 100,
+          "z": -10
+        }
+      },
+      {
+        "type": "float",
+        "value": 0.01
+      },
+      {
+        "type": "float-list",
+        "value": [
+          13.2,
+          -9.834
+        ]
+      },
+      {
+        "type": "float-map",
+        "value": {
+          "d": -0.023,
+          "t": 59.2
+        }
+      },
+      {
+        "type": "long",
+        "value": {
+          "high": 15,
+          "low": -1043629193
+        }
+      },
+      {
+        "type": "long-list",
+        "value": [
+          {
+            "high": 0,
+            "low": 647585
+          },
+          {
+            "high": -1,
+            "low": -8474
+          }
+        ]
+      },
+      {
+        "type": "long-map",
+        "value": {
+          "a": {
+            "high": 0,
+            "low": 1
+          },
+          "b": {
+            "high": 0,
+            "low": 2
+          }
+        }
+      },
+      {
+        "type": "bytes",
+        "value": [
+          127,
+          0,
+          255
+        ]
+      },
+      {
+        "type": "bytes-list",
+        "value": [
+          [
+            1,
+            0
+          ],
+          [
+            99
+          ]
+        ]
+      },
+      {
+        "type": "bytes-map",
+        "value": {
+          "j": [
+            1
+          ],
+          "k": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "type": "uuid",
+        "value": {
+          "bytes": [
+            211,
+            108,
+            251,
+            19,
+            188,
+            209,
+            74,
+            178,
+            182,
+            23,
+            37,
+            120,
+            248,
+            162,
+            176,
+            198
+          ]
+        }
+      },
+      {
+        "type": "uuid-list",
+        "value": [
+          {
+            "bytes": [
+              63,
+              97,
+              86,
+              72,
+              132,
+              59,
+              79,
+              76,
+              167,
+              196,
+              90,
+              27,
+              123,
+              111,
+              47,
+              254
+            ]
+          },
+          {
+            "bytes": [
+              61,
+              71,
+              206,
+              25,
+              124,
+              94,
+              70,
+              210,
+              186,
+              172,
+              240,
+              122,
+              84,
+              4,
+              56,
+              127
+            ]
+          }
+        ]
+      },
+      {
+        "type": "uuid-map",
+        "value": {
+          "l": {
+            "bytes": [
+              7,
+              97,
+              239,
+              181,
+              56,
+              83,
+              74,
+              80,
+              183,
+              157,
+              231,
+              91,
+              113,
+              75,
+              65,
+              238
+            ]
+          },
+          "m": {
+            "bytes": [
+              172,
+              10,
+              38,
+              237,
+              111,
+              198,
+              66,
+              157,
+              128,
+              222,
+              163,
+              102,
+              75,
+              84,
+              53,
+              152
+            ]
+          },
+          "n": {
+            "bytes": [
+              52,
+              53,
+              102,
+              150,
+              123,
+              87,
+              68,
+              89,
+              175,
+              149,
+              45,
+              83,
+              64,
+              103,
+              221,
+              143
+            ]
+          }
+        }
+      },
+      {
+        "type": "datetime",
+        "value": "1970-01-01T00:00:00.001Z"
+      },
+      {
+        "type": "datetime-list",
+        "value": [
+          "1969-12-31T23:43:20.000Z",
+          "1970-01-02T03:43:08.995Z"
+        ]
+      },
+      {
+        "type": "datetime-map",
+        "value": {
+          "f": "1970-01-01T00:00:00.099Z",
+          "t": "1970-01-01T00:00:10.000Z"
+        }
+      },
+      {
+        "type": "geo",
+        "value": {
+          "latitude": 55.342,
+          "longitude": -90
+        }
+      },
+      {
+        "type": "geo-list",
+        "value": [
+          {
+            "latitude": 1,
+            "longitude": 1
+          },
+          {
+            "latitude": -10,
+            "longitude": -10
+          }
+        ]
+      },
+      {
+        "type": "geo-map",
+        "value": {
+          "bl": {
+            "latitude": 18.948649,
+            "longitude": -160.773079
+          },
+          "br": {
+            "latitude": 18.797524,
+            "longitude": -154.699062
+          },
+          "tl": {
+            "latitude": 22.308184,
+            "longitude": -160.762813
+          },
+          "tr": {
+            "latitude": 22.205865,
+            "longitude": -154.652198
+          }
+        }
+      }
     ],
-    "data": "ÇFOz/øX/ÐÛêKWAÏF3XÒZéJÄìqÛðU39ÀßÐLêKWÌÀàÐMAôuÌX0ßX¿MJC4F7ÞÒJB9ÀàßâzfæÕAF4XzDHÆY2ÎÜ0d?ãÇUwwÐTRfý3wrbøîÏõF4â×n0cÊämMÊäpi/WÓz¿ÂËçwF8ÞÒJZhýKÄÑùñÙEoUtlæ3êämMÊämcDGZ///0úBgôõÇ2Ffî/GßÎòýýýýýýýõÚçDÐ4UjznJD9X4à/íî6üXAÇk/T7270kâÀÖI4ÓÂ/znJÜD310â×ÆhDUÑpxàuäÃIlÙ4âÕÅàÃjáX×ÆêÉ7DSÖdâÂDôÍZcöÃÎëôíKýÖ¿0óCÌ@Ý?âpÈóföRÈzUßýFäYjt?m7D2ÖwùcßZÈbgñÜtëàÉTùÒJìDUf48ÛÔüM4QzqÒplgboÊbgêTzæomYÍotEmiÈÉdn2SuCÇmTLT5YË/áFgKýßwÞmzÝIW6FäzlÆI4ÊáÎÛMÐrÀYË/ß/MJn2@ÇnÝý4õ0Ì1úÓ@PÉN0ÈTÒJmBÀòäÇà8Jn4?Çlæ3ÛiAaõåpg4NYË0dðcD32FùwÐfæ9q3ÏLËÇJg/l÷pÓFñ7aÉÞM2?æzÕÅKbÊaHÉJzMm4bÁa@ëãî@oløìÃx1òaWlYÉTAÇìcJFZÀðö5TßÏôåyØèGÏãFãÎ5áYÌWFl5÷v2AcÜåIà7zþ",
-    "human": "_j94dr00yj80aaxv1ehhph4g8jah6tsd3dsqqf4gggagp3933c5t778b2mhj6ysvkj80w54g9jb1w54ghgagp3gn1cb1s40pd2q3942mj041944m3m5w0n8bscjgqnxmj0f5kz13tw53tw53vj85s5jt059k6csk6cskcqg13nc10rjdtbt9170n1ck5vz5wd9zfkps2tm5tcpg2dk6csk6cska909mr00000zgebfdvs434jsr00krd1tfzzzzzzzzzxxsmj2j1a2r81m5h054g5rg1qy07zj86s5h02040c80b3j8ar58barg0g38bbrg1040wjsj2w846kdkxh7f6h9asbc5s5f3wa5c66jb68v4p420zp2nj8ggxmyk57rhd1pyvf5zzc841x8z71jz2y8v9bnb7gf9a08e3zjb69b0x1dk2101v1xytkgmtaa2vsvstve55m3vn1dq211b0a4vppzhj2kp0dx8v69da3b651dv210d1nctb7pnt4b6qsabak81kxv3wjsm0r80cjsm0rs4pjzzrbvg6e0qsahgwjsm0s90n1csht2x6d4w895k81gg0s5k81hj9d5zzgqq0cw1fjn31s5k81jj1a2sk3m5tct9rgjb6g52wjsd04qay6mzqsvcpgmt9ct0nbja9020cjyvv95k82ke2a4rkcjb5m0cqjvamjwrgksf06865x20nwebn2c9s95jt06b62n239rspwqg33asfbehbw1eh78v4jsd03ckq54p4jd1ebr1j1gt7psvzdd8kmea9cpg1p6jss34k43f5w0rtmvv75e448q"
+    "data": "ÇFOz/ìX/ÐÛêKWAÏF3XÒZéJÄìqÛðU39ÀßÐLêKWÌÀàÐMAôuÌX0ßX¿MJC4F7ÞÒJB9ÀàßâzfæÕAF4XzDHÆY2ÎÜ0d?ãÇUwwÐTRfý3wrbøîÏõF4â×n0cÊämMÊäpi/WÓz¿ÂËçwF8ÞÒJZhýKÄÑùñÙEoUtlæ3êämMÊämcDGZ///0úBgôõÇ2Ffî/GßÎòýýýýýýýõÚçDÐ4UjznJD9X4à/íî6üXAÇk/T7270kâÀÖI4ÓÂ/znJÜD310â×ÆhDUÑpxàuäÃIlÙ4âÕÅàÃjáX×ÆêÉ7DSÖdâÂDôÍZcöÃÎëôíKýÖ¿0óCÌ@Ý?âpÈóföRÈzUßýFäYjt?m7D2ÖwùcßZÈbgñÜtëàÉTùÒJìDUf48ÛÔüM4QzqÒplgboÊbgêTzæomYÍotEmiÈÉdn2SuCÇmTLT5YË/áFgKýßwÞmzÝIW6FäzlÆI4ÊáÎÛMÐrÀYË0VðfØ0Keácû÷ëÉUZÇmTdÚÈX0/âÜínÉN1ËßHZGlYÉT@ÜgÓXÚà8ðö5TàøDIïãèG8ãFãÎ5fßdDçáOsv2AfÜÙÏizÛ8æêÇlæ2luÈYÂÇÎÚÜ0ÆLnw×íôØÂòsX×n0ÖçmÆâÊ¿Üi/ádq×ãrÀDþ",
+    "human": "_j94dRo0vj80aaxVlehhPh4g8Jah6tSd3dsQqf4gGgagp3933c5t778B2mhj6ysvkJ80w54g9jb1w54gHgagp3gnlcB1s4oPd2q3942mj041944m3m5Won8bScjgqNxmj0F5kzi3tw53Tw53vJ85s5Jto59K6csk6cskcQg13nC1orjDtbt9L7onlCk5vz5wd9zFkps2Tm5tcPg2dk6csk6Cska9O9mro0o0ozGebfdVs434Jsr0oKrdltFzzzzZzzzzXxsmj2j1a2R8lm5Ho54g5rg1qYo7zj86s5h02040C8ob3J8ar58barg0g38bBrg1o4owjsJ2w846kdkxH7f6h9asbc5s5f3Wa5c66jb68V4p42Ozp2nJ8ggxMyk57RhdlpYvf5zZc841X8z7lJz2y8V9bnb7gf9aO8e3zJb69bOxldk2l0ivLxytkGmtaa2vsvsTve55M3vnlDq2l1B0a4vPpzhj2kp0dX8v69Da3b65ldv2L0d1nCtb7pNt4b6QsabaK8ikxV3wjsM0r8oCjsm0Rs4pjZzrbvG6e0qSahgwJsm0s9onlcSht2x6d4w895k82He9cpG2bnf3afvwXpb8aD4pd0Ans54Gl069FdxmjSm19qI52c9P95jtO6bsdNa9ec89wqg3432yH0ay75th64Wmjsd035k1AhimwCvebrIhncqNq8nyOq8kmDj9cpG1p9vJjb296gq5w0s0rd3vcxzPpm9t754pb8ov39Cwhj9JlqjyOcdadXkjq224oh"
   }
 ]

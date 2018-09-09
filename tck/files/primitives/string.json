@@ -4,7 +4,7 @@
     "typeCode": 0,
     "value": "Hello, World!",
     "data": "Ç/IÒÁIÖêqÉ34uwâêl7Tþ",
-    "human": "_j80atj35dhp6yb10axqq4v34445"
+    "human": "_j80aTj35dHp6yb1oaxqQ4v34445"
   },
   {
     "type": "string",
@@ -21,7 +21,7 @@
       ""
     ],
     "data": "Ç1FdèUÈêpOãÀ1ÛÜðpM3N/þ",
-    "human": "_j8495ba8cnp6rvsc41bpywkccggt0q"
+    "human": "_j8495ba8cNp6rvSc4ibPywkcCggt0Q"
   },
   {
     "type": "string-map",
@@ -31,6 +31,6 @@
       "b": ""
     },
     "data": "Ç3Dd?5ØÆlÙAÄ÷jzÕqÚËÄU5ÀàÎ/þ",
-    "human": "_j88858b1nn46av3cdwp20nvfe9p688d1cag0e"
+    "human": "_j88858blnN46av3cdwp20nvfE9p688dlcaGoe"
   }
 ]

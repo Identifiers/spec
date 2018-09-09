@@ -90,7 +90,6 @@ function generateSemanticTCK() {
   );
 }
 
-
 function generateCompositeTCK() {
   // create one of every kind of identifier
   const stringId = ID.factory.string('watch');
@@ -147,17 +146,35 @@ function generateCompositeTCK() {
     bytesId, bytesIdList, bytesIdMap,
     uuidId, uuidIdList, uuidIdMap,
     datetimeId, datetimeIdList, datetimeIdMap,
-    datetimeId, datetimeIdList, datetimeIdMap,
     geoId, geoIdList, geoIdMap
   ];
 
   const compositeList = ID.factory.composite.list(idList);
   const tckList = generator.createTCKObject([compositeList]);
-  generator.persistTCK(tckList, '/composites/list');
+  generator.persistTCK(tckList.map(hoistListIDInfo), '/composites/list');
 
   const idMap = generator.mapFromValues(idList);
   const compositeMap = ID.factory.composite.map(idMap);
   const tckMap = generator.createTCKObject([compositeMap]);
 
-  generator.persistTCK(tckMap, '/composites/map');
+  generator.persistTCK(tckMap.map(hoistMapIDInfo), '/composites/map');
+
+
+  function hoistListIDInfo(listId) {
+    return {...listId, value: listId.value.map(
+              (id) => hoistIDInfo(id))
+    };
+  }
+
+  function hoistMapIDInfo(mapId) {
+    return Object.keys(mapId.value).reduce(
+            (acc, key) => ({...acc, [key]: hoistIDInfo(mapId.value[key])}),
+            {});
+  }
+  function hoistIDInfo(id) {
+    return {
+      type: id.type,
+      value: id.value
+    };
+  }
 }

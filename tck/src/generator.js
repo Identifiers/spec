@@ -15,13 +15,6 @@ function createIDsFromValues(factory, values) {
   return IDs;
 }
 
-function oldmapFromValues(values) {
-  const map = {};
-  let keyCode = 'a'.charCodeAt(0);
-  values.forEach((value) => map[String.fromCharCode(keyCode++)] = value);
-  return map;
-}
-
 function mapFromValues(values) {
   return values.reduce((acc, value, i) => ({...acc, [keyCode(i)]: value}), {});
 }
@@ -48,16 +41,40 @@ const CODEC = Symbol.for('id-codec');
 function createTCKObject(ids) {
   return ids.map((id) => {
     const codec = id[CODEC];
-    // todo: human string needs to be mixed-case, mixed-aliased
+    const humanString = id.toHumanString()
+      .split('')
+      .map(maybeReplaceChar)
+      .join('');
+
     return {
       type: codec.type,
       typeCode: codec.typeCode,
       value: id.value,
       data: id.toDataString(),
-      human: id.toHumanString()
+      human: humanString
     }
   })
 }
+
+function maybeReplaceChar(value, index) {
+  const mustUppercase = index % 5 === 0;
+  const maybeAlias = index % 2 === 0;
+
+  if (maybeAlias) {
+    if (value === "0") {
+      value = "o";
+    } else if (value === "1") {
+      value = index % 4 === 0 ? "l" : "i";
+    }
+  }
+
+  if (mustUppercase) {
+    value = value.toUpperCase();
+  }
+
+  return value;
+}
+
 
 function persistTCK(tck, path) {
   fs.outputFileSync(`./files/${path}.json`, JSON.stringify(tck, null, 2));

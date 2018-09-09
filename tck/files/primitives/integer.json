@@ -4,35 +4,35 @@
     "typeCode": 2,
     "value": -2147483648,
     "data": "Ç/Øb////þ",
-    "human": "_j81d500000005"
+    "human": "_j81d5o0o0O0o5"
   },
   {
     "type": "integer",
     "typeCode": 2,
     "value": -32767,
     "data": "Ç/ØL/3þ",
-    "human": "_j81d30015"
+    "human": "_j81d3o0l5"
   },
   {
     "type": "integer",
     "typeCode": 2,
     "value": 0,
     "data": "Ç/z/þ",
-    "human": "_j81000"
+    "human": "_j81o0o"
   },
   {
     "type": "integer",
     "typeCode": 2,
     "value": 255,
     "data": "Ç/×Íöþ",
-    "human": "_j81cszrf"
+    "human": "_j81cSzrf"
   },
   {
     "type": "integer",
     "typeCode": 2,
     "value": 2147483647,
     "data": "Ç/×åýýýýþ",
-    "human": "_j81cwzzzzzzgs"
+    "human": "_j81cWzzzzZzgs"
   },
   {
     "type": "integer-list",
@@ -45,7 +45,7 @@
       2147483647
     ],
     "data": "Ç1ÐÛH////nj/72MýåSýýýúþ",
-    "human": "_j859bmm000001mc0040cszyefzzzzzrp"
+    "human": "_j859Bmmo0O0o1mCo040CszyeFzzzzZrp"
   },
   {
     "type": "integer-map",
@@ -58,6 +58,6 @@
       "e": 2147483647
     },
     "data": "Ç3ÎØ?6Y////9??W//æfj44ÇÊýæfÚñýýýýzþ",
-    "human": "_j898b8b1ta000000m5hd3001m5hg18b4skzt2seefzzzzzrk"
+    "human": "_j898B8bltA0o0o0om5hD3o0lM5hg18b4skZt2seEfzzzZzrk"
   }
 ]
