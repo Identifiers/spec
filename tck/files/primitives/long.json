@@ -3,28 +3,6 @@
     "type": "long",
     "typeCode": 4,
     "value": {
-      "high": -2097152,
-      "low": 1
-    },
-    "data": "Ç0Nyý///////7þ",
-    "human": "_j82d7zz00000000004v",
-    "mixedHuman": "_j82d7zzo0O0o0o0o04v"
-  },
-  {
-    "type": "long",
-    "typeCode": 4,
-    "value": {
-      "high": -1,
-      "low": -4095
-    },
-    "data": "Ç0Nyýýýýýýü/7þ",
-    "human": "_j82d7zzzzzzzzzzg04q",
-    "mixedHuman": "_j82d7zzzzZzzzzZg04q"
-  },
-  {
-    "type": "long",
-    "typeCode": 4,
-    "value": {
       "high": 0,
       "low": 0
     },
@@ -37,11 +15,110 @@
     "typeCode": 4,
     "value": {
       "high": 0,
+      "low": 127
+    },
+    "data": "Ç0Cîþ",
+    "human": "_j827yj",
+    "mixedHuman": "_j827Yj"
+  },
+  {
+    "type": "long",
+    "typeCode": 4,
+    "value": {
+      "high": -1,
+      "low": -31
+    },
+    "data": "Ç0PDþ",
+    "human": "_j82e25",
+    "mixedHuman": "_j82e25"
+  },
+  {
+    "type": "long",
+    "typeCode": 4,
+    "value": {
+      "high": 0,
+      "low": 255
+    },
+    "data": "Ç0MÍöþ",
+    "human": "_j82cszrh",
+    "mixedHuman": "_j82cSzrh"
+  },
+  {
+    "type": "long",
+    "typeCode": 4,
+    "value": {
+      "high": 0,
+      "low": 32769
+    },
+    "data": "Ç0MÖ/3þ",
+    "human": "_j82cv0013",
+    "mixedHuman": "_j82cVo0l3"
+  },
+  {
+    "type": "long",
+    "typeCode": 4,
+    "value": {
+      "high": -1,
+      "low": -32768
+    },
+    "data": "Ç0NL//þ",
+    "human": "_j82d30006",
+    "mixedHuman": "_j82d3o0o6"
+  },
+  {
+    "type": "long",
+    "typeCode": 4,
+    "value": {
+      "high": -1,
+      "low": -2147483648
+    },
+    "data": "Ç0Nb////þ",
+    "human": "_j82d500000007",
+    "mixedHuman": "_j82d5o0o0O0o7"
+  },
+  {
+    "type": "long",
+    "typeCode": 4,
+    "value": {
+      "high": 0,
+      "low": 2147483647
+    },
+    "data": "Ç0Måýýýýþ",
+    "human": "_j82cwzzzzzzgv",
+    "mixedHuman": "_j82cWzzzzZzgv"
+  },
+  {
+    "type": "long",
+    "typeCode": 4,
+    "value": {
+      "high": -1,
+      "low": -4095
+    },
+    "data": "Ç0NS/3þ",
+    "human": "_j82d3w018",
+    "mixedHuman": "_j82d3w0l8"
+  },
+  {
+    "type": "long",
+    "typeCode": 4,
+    "value": {
+      "high": 0,
       "low": 511
     },
     "data": "Ç0MÎCúþ",
     "human": "_j82ct0fzk",
     "mixedHuman": "_j82cTofzk"
+  },
+  {
+    "type": "long",
+    "typeCode": 4,
+    "value": {
+      "high": -2097152,
+      "low": 1
+    },
+    "data": "Ç0Nyý///////7þ",
+    "human": "_j82d7zz00000000004v",
+    "mixedHuman": "_j82d7zzo0O0o0o0o04v"
   },
   {
     "type": "long",
@@ -59,8 +136,36 @@
     "typeCode": 12,
     "value": [
       {
-        "high": -2097152,
-        "low": 1
+        "high": 0,
+        "low": 0
+      },
+      {
+        "high": 0,
+        "low": 127
+      },
+      {
+        "high": -1,
+        "low": -31
+      },
+      {
+        "high": 0,
+        "low": 255
+      },
+      {
+        "high": 0,
+        "low": 32769
+      },
+      {
+        "high": -1,
+        "low": -32768
+      },
+      {
+        "high": -1,
+        "low": -2147483648
+      },
+      {
+        "high": 0,
+        "low": 2147483647
       },
       {
         "high": -1,
@@ -68,48 +173,76 @@
       },
       {
         "high": 0,
-        "low": 0
+        "low": 511
       },
       {
-        "high": 0,
-        "low": 511
+        "high": -2097152,
+        "low": 1
       },
       {
         "high": 2097151,
         "low": -1
       }
     ],
-    "data": "Ç2FÛSýz//////6aýýýýýýýÞ0/mTSüÊ/Sýýýýýýüþ",
-    "human": "_j869bmzzw0000000000x7zzzzzzzzzzg040ct0fztc01zzzzzzzzzzr~",
-    "mixedHuman": "_j869BmzzwO0o0o0o0o0X7zzzZzzzzZzg040ctofZtc0lZzzzzZzzzzR~"
+    "data": "Ç2Gz2ýÁÊýñj/BÄ//çT///2PýýýýûCz2Ë/ýøyý///////BÊ/Sýýýýýýüþ",
+    "human": "_j869r03zw76fzkc0078r006jg000006efzzzzzyhy00wt0fztfzy0000000000ek00fzzzzzzzzzym",
+    "mixedHuman": "_j869Ro3zw76fzkCo078R0o6jGo0o0O6efzZzzzyHyo0wTofztFzy0o0o0o0O0oek0ofzzZzzzzZzym"
   },
   {
     "type": "long-map",
     "typeCode": 20,
     "value": {
       "a": {
-        "high": -2097152,
-        "low": 1
-      },
-      "b": {
-        "high": -1,
-        "low": -4095
-      },
-      "c": {
         "high": 0,
         "low": 0
       },
+      "b": {
+        "high": 0,
+        "low": 127
+      },
+      "c": {
+        "high": -1,
+        "low": -31
+      },
       "d": {
+        "high": 0,
+        "low": 255
+      },
+      "e": {
+        "high": 0,
+        "low": 32769
+      },
+      "f": {
+        "high": -1,
+        "low": -32768
+      },
+      "g": {
+        "high": -1,
+        "low": -2147483648
+      },
+      "h": {
+        "high": 0,
+        "low": 2147483647
+      },
+      "i": {
+        "high": -1,
+        "low": -4095
+      },
+      "j": {
         "high": 0,
         "low": 511
       },
-      "e": {
+      "k": {
+        "high": -2097152,
+        "low": 1
+      },
+      "l": {
         "high": 2097151,
         "low": -1
       }
     },
-    "data": "Ç4DØ?6aýî//////0ÎÖØyýýýýýýü/A4Ä/Î×MÎCüÀãçz2ýýýýýýýÞþ",
-    "human": "_j8a8b8b1tfzy0000000000d1cb9zzzzzzzzzzw01m5hg18b4sm0zz8b5tc01zzzzzzzzzzry",
-    "mixedHuman": "_j8a8B8bltFzy0o0o0o0O0odlCb9zzZzzzzZzzw0Lm5hg18b4sM0zz8B5tc0LzzzzZzzzzZry"
+    "data": "Ç4EÈ?30UkSòJS5ÀâäyòJhp/0Î×ØL/1ÀåçT///1ÀæåSýýýüÀçæú/N?eN0ýægwSýz//////5Àêçz2ýýýýýýýÞþ",
+    "human": "_j8a8s8b102gp4zx1cfgt2s6czygpbkc006gpdmc002gpfmm0000018b8sszzzzzzm5mx3w01m5nct0fzm5nx7zz00000000006gpsmr03zzzzzzzzzzgx",
+    "mixedHuman": "_j8a8S8bl02gp4zXlcfgT2s6cZygpbKco06GpdmcO02gpFmmo0O0o18B8sszZzzzzM5mx3W0lm5NctofZm5nx7zzo0O0o0o0o06gPsmro3zzzzZzzzzZgx"
   }
 ]

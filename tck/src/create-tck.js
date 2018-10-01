@@ -59,10 +59,17 @@ function generatePrimitiveTCK() {
   );
 
   generator.tck(ID.factory.long, 'primitives/long',
-    Number.MIN_SAFE_INTEGER,
-    -4095,
     0,
+    127,
+    -31,
+    255,
+    32769,
+    -32768,
+    -0x80000000,
+    0x7fffffff,
+    -4095,
     511,
+    Number.MIN_SAFE_INTEGER,
     Number.MAX_SAFE_INTEGER
   );
 }
