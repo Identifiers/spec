@@ -21,10 +21,10 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
   integrity sha1-Dovf5NHduIVNZOBOp8AOKgJuVlg=
 
-identifiers-js@0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/identifiers-js/-/identifiers-js-0.3.1.tgz#937fcb545e16e5d7a4f65064156daeaae6294fad"
-  integrity sha512-MR9lO08lHpJ3NHsX12zo9eUoLjlVo62SG3xctX1hXkfllSUa+DNzLevUQGnUdMThOWHmooZID3tBP8mfUhbG1Q==
+identifiers-js@0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/identifiers-js/-/identifiers-js-0.3.2.tgz#63668a570262ec65823c10c83de063c9adebccae"
+  integrity sha512-/N/YiFaLPVLVnAX8hLzSzgWtAJQMzOdFJjqpKK6AwhtICw0yg4586bNCHDaqlWgnNR8nI+B3jGtQ2zulAn7UHg==
   dependencies:
     int64-buffer "^0.1.10"
     js.spec "^1.0.0-23"
@@ -149,7 +149,7 @@ lodash.issymbol@^4.0.1:
   resolved "https://registry.yarnpkg.com/lodash.issymbol/-/lodash.issymbol-4.0.1.tgz#04ad41d96f3f4f399c37dd4fcf3c1b6901e16116"
   integrity sha1-BK1B2W8/TzmcN91PzzwbaQHhYRY=
 
-long@^4.0.0:
+long@4.0.0, long@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/long/-/long-4.0.0.tgz#9a7b71cfb7d361a194ea555241c92f7468d5bf28"
   integrity sha512-XsP+KhQif4bjX1kbuSiySJFNAehNxgLb6hPRGJ9QsUr8ajHkuXGdrHmFUTUUXhDwVX2R5bY4JNZEwbUiMhV+MA==
