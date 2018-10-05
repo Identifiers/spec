@@ -1,5 +1,6 @@
 const ID = require('identifiers-js');
 const generator = require('./generator');
+const longSupport = require('./long-support');
 
 /*
   Generated tck files:
@@ -58,7 +59,7 @@ function generatePrimitiveTCK() {
     2 ** 31 - 1
   );
 
-  generator.tck(ID.factory.long, 'primitives/long',
+  const longIds = generator.createIDsFromValues(ID.factory.long, [
     0,
     127,
     -31,
@@ -70,8 +71,13 @@ function generatePrimitiveTCK() {
     -4095,
     511,
     Number.MIN_SAFE_INTEGER,
-    Number.MAX_SAFE_INTEGER
+    Number.MAX_SAFE_INTEGER ]
   );
+
+  const longTckObjects = generator.createTCKObjects(longIds)
+    .map(longSupport.longIdValueToStringIdValue);
+
+  generator.persistTCK(longTckObjects, 'primitives/long');
 }
 
 
@@ -157,12 +163,12 @@ function generateCompositeTCK() {
   ];
 
   const compositeList = ID.factory.composite.list(idList);
-  const tckList = generator.createTCKObject([compositeList]);
+  const tckList = generator.createTCKObjects([compositeList]);
   generator.persistTCK(tckList.map(hoistListIDInfo), '/composites/list');
 
   const idMap = generator.mapFromValues(idList);
   const compositeMap = ID.factory.composite.map(idMap);
-  const tckMap = generator.createTCKObject([compositeMap]);
+  const tckMap = generator.createTCKObjects([compositeMap]);
 
   generator.persistTCK(tckMap.map(hoistMapIDInfo), '/composites/map');
 
@@ -179,6 +185,9 @@ function generateCompositeTCK() {
             {})};
   }
   function hoistIDInfo(id) {
+    if (id.type.startsWith('long')) {
+      id = longSupport.longIdValueToStringIdValue(id);
+    }
     return {
       type: id.type,
       value: id.value

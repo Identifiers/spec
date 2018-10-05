@@ -2,10 +2,7 @@
   {
     "type": "long",
     "typeCode": 4,
-    "value": {
-      "high": 0,
-      "low": 0
-    },
+    "value": "0",
     "data": "Ç0//þ",
     "human": "_j82002",
     "mixedHuman": "_j82o02"
@@ -13,10 +10,7 @@
   {
     "type": "long",
     "typeCode": 4,
-    "value": {
-      "high": 0,
-      "low": 127
-    },
+    "value": "127",
     "data": "Ç0Cîþ",
     "human": "_j827yj",
     "mixedHuman": "_j827Yj"
@@ -24,10 +18,7 @@
   {
     "type": "long",
     "typeCode": 4,
-    "value": {
-      "high": -1,
-      "low": -31
-    },
+    "value": "-31",
     "data": "Ç0PDþ",
     "human": "_j82e25",
     "mixedHuman": "_j82e25"
@@ -35,10 +26,7 @@
   {
     "type": "long",
     "typeCode": 4,
-    "value": {
-      "high": 0,
-      "low": 255
-    },
+    "value": "255",
     "data": "Ç0MÍöþ",
     "human": "_j82cszrh",
     "mixedHuman": "_j82cSzrh"
@@ -46,10 +34,7 @@
   {
     "type": "long",
     "typeCode": 4,
-    "value": {
-      "high": 0,
-      "low": 32769
-    },
+    "value": "32769",
     "data": "Ç0MÖ/3þ",
     "human": "_j82cv0013",
     "mixedHuman": "_j82cVo0l3"
@@ -57,10 +42,7 @@
   {
     "type": "long",
     "typeCode": 4,
-    "value": {
-      "high": -1,
-      "low": -32768
-    },
+    "value": "-32768",
     "data": "Ç0NL//þ",
     "human": "_j82d30006",
     "mixedHuman": "_j82d3o0o6"
@@ -68,10 +50,7 @@
   {
     "type": "long",
     "typeCode": 4,
-    "value": {
-      "high": -1,
-      "low": -2147483648
-    },
+    "value": "-2147483648",
     "data": "Ç0Nb////þ",
     "human": "_j82d500000007",
     "mixedHuman": "_j82d5o0o0O0o7"
@@ -79,10 +58,7 @@
   {
     "type": "long",
     "typeCode": 4,
-    "value": {
-      "high": 0,
-      "low": 2147483647
-    },
+    "value": "2147483647",
     "data": "Ç0Måýýýýþ",
     "human": "_j82cwzzzzzzgv",
     "mixedHuman": "_j82cWzzzzZzgv"
@@ -90,10 +66,7 @@
   {
     "type": "long",
     "typeCode": 4,
-    "value": {
-      "high": -1,
-      "low": -4095
-    },
+    "value": "-4095",
     "data": "Ç0NS/3þ",
     "human": "_j82d3w018",
     "mixedHuman": "_j82d3w0l8"
@@ -101,10 +74,7 @@
   {
     "type": "long",
     "typeCode": 4,
-    "value": {
-      "high": 0,
-      "low": 511
-    },
+    "value": "511",
     "data": "Ç0MÎCúþ",
     "human": "_j82ct0fzk",
     "mixedHuman": "_j82cTofzk"
@@ -112,10 +82,7 @@
   {
     "type": "long",
     "typeCode": 4,
-    "value": {
-      "high": -2097152,
-      "low": 1
-    },
+    "value": "-9007199254740991",
     "data": "Ç0Nyý///////7þ",
     "human": "_j82d7zz00000000004v",
     "mixedHuman": "_j82d7zzo0O0o0o0o04v"
@@ -123,10 +90,7 @@
   {
     "type": "long",
     "typeCode": 4,
-    "value": {
-      "high": 2097151,
-      "low": -1
-    },
+    "value": "9007199254740991",
     "data": "Ç0Mî/ýýýýýýýöþ",
     "human": "_j82cy00zzzzzzzzzzwz",
     "mixedHuman": "_j82cYo0zzZzzzzZzzwz"
@@ -135,54 +99,18 @@
     "type": "long-list",
     "typeCode": 12,
     "value": [
-      {
-        "high": 0,
-        "low": 0
-      },
-      {
-        "high": 0,
-        "low": 127
-      },
-      {
-        "high": -1,
-        "low": -31
-      },
-      {
-        "high": 0,
-        "low": 255
-      },
-      {
-        "high": 0,
-        "low": 32769
-      },
-      {
-        "high": -1,
-        "low": -32768
-      },
-      {
-        "high": -1,
-        "low": -2147483648
-      },
-      {
-        "high": 0,
-        "low": 2147483647
-      },
-      {
-        "high": -1,
-        "low": -4095
-      },
-      {
-        "high": 0,
-        "low": 511
-      },
-      {
-        "high": -2097152,
-        "low": 1
-      },
-      {
-        "high": 2097151,
-        "low": -1
-      }
+      "0",
+      "127",
+      "-31",
+      "255",
+      "32769",
+      "-32768",
+      "-2147483648",
+      "2147483647",
+      "-4095",
+      "511",
+      "-9007199254740991",
+      "9007199254740991"
     ],
     "data": "Ç2Gz2ýÁÊýñj/BÄ//çT///2PýýýýûCz2Ë/ýøyý///////Bv/Sýýýýýýüþ",
     "human": "_j869r03zw76fzkc0078r006jg000006efzzzzzyhy00wt0fztfzy0000000000ef00fzzzzzzzzzyg",
@@ -192,54 +120,18 @@
     "type": "long-map",
     "typeCode": 20,
     "value": {
-      "a": {
-        "high": 0,
-        "low": 0
-      },
-      "b": {
-        "high": 0,
-        "low": 127
-      },
-      "c": {
-        "high": -1,
-        "low": -31
-      },
-      "d": {
-        "high": 0,
-        "low": 255
-      },
-      "e": {
-        "high": 0,
-        "low": 32769
-      },
-      "f": {
-        "high": -1,
-        "low": -32768
-      },
-      "g": {
-        "high": -1,
-        "low": -2147483648
-      },
-      "h": {
-        "high": 0,
-        "low": 2147483647
-      },
-      "i": {
-        "high": -1,
-        "low": -4095
-      },
-      "j": {
-        "high": 0,
-        "low": 511
-      },
-      "k": {
-        "high": -2097152,
-        "low": 1
-      },
-      "l": {
-        "high": 2097151,
-        "low": -1
-      }
+      "a": "0",
+      "b": "127",
+      "c": "-31",
+      "d": "255",
+      "e": "32769",
+      "f": "-32768",
+      "g": "-2147483648",
+      "h": "2147483647",
+      "i": "-4095",
+      "j": "511",
+      "k": "-9007199254740991",
+      "l": "9007199254740991"
     },
     "data": "Ç4EÈ?30UkSòJS5ÀâäyòJhp/0Î×ØL/1ÀåçT///1ÀæåSýýýüÀçæú/N?eN0ýægwSýz//////5Àêåz2ýýýýýýýÞþ",
     "human": "_j8a8s8b102gp4zx1cfgt2s6czygpbkc006gpdmc002gpfmm0000018b8sszzzzzzm5mx3w01m5nct0fzm5nx7zz00000000006gpskr03zzzzzzzzzzgs",

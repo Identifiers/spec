@@ -3,8 +3,8 @@ const fs = require('fs-extra');
 
 function tck(factory, path, ...values) {
   const ids = createIDsFromValues(factory, values);
-  const tckObject = createTCKObject(ids);
-  persistTCK(tckObject, path);
+  const tckObjects = createTCKObjects(ids);
+  persistTCK(tckObjects, path);
 }
 
 function createIDsFromValues(factory, values) {
@@ -38,7 +38,7 @@ function keyCode(pos) {
 
 const CODEC = Symbol.for('id-codec');
 
-function createTCKObject(ids) {
+function createTCKObjects(ids) {
   return ids.map((id) => {
     const codec = id[CODEC];
     const human = id.toHumanString();
@@ -82,4 +82,4 @@ function persistTCK(tck, path) {
   fs.outputFileSync(`./files/${path}.json`, JSON.stringify(tck, null, 2));
 }
 
-module.exports = {tck, mapFromValues, createTCKObject, persistTCK};
+module.exports = {tck, createIDsFromValues, mapFromValues, createTCKObjects, persistTCK};
