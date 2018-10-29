@@ -19,12 +19,6 @@ function mapFromValues(values) {
   return values.reduce((acc, value, i) => ({...acc, [keyCode(i)]: value}), {});
 }
 
-/*
-  Initially I created a fancy function that computed the keyCode without Number.toString() but this is shorter.
-  It generates double-digit keys, but since '0' is 'a', mapping '10' to letters produces 'ba'.
-*/
-
-//create a mapping from toString(26) result to a-z codes
 const codeMapping = {};
 const firstCode = 'a'.charCodeAt(0);
 for (let i = 0; i < 26; i++) {

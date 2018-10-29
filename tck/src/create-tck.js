@@ -1,6 +1,7 @@
 const ID = require('identifiers-js');
 const generator = require('./generator');
 const longSupport = require('./long-support');
+const Long = require('long');
 
 /*
   Generated tck files:
@@ -72,7 +73,9 @@ function generatePrimitiveTCK() {
     -4095,
     511,
     Number.MIN_SAFE_INTEGER,
-    Number.MAX_SAFE_INTEGER ]
+    Number.MAX_SAFE_INTEGER,
+    Long.fromBits(0, -0x80000000),
+    Long.fromBits(-1, 0x7fffffff) ]
   );
 
   const longTckObjects = generator.createTCKObjects(longIds)
@@ -175,9 +178,7 @@ function generateCompositeTCK() {
 
 
   function hoistListIDInfo(listId) {
-    return {...listId, value: listId.value.map(
-            (id) => hoistIDInfo(id))
-    };
+    return {...listId, value: listId.value.map((id) => hoistIDInfo(id))};
   }
 
   function hoistMapIDInfo(mapId) {

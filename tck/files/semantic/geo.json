@@ -70,7 +70,7 @@
   },
   {
     "type": "geo-map",
-    "typeCode": 667,
+    "typeCode": 715,
     "value": {
       "a": {
         "latitude": -90,
@@ -89,8 +89,8 @@
         "longitude": -180
       }
     },
-    "data": "ÇmTcÚFÀßÇlÖeT/0ÈUË//44ÃFãÎ8?Ä@sCSí÷v/CIJÆçéËA4ÅFã////2H////9?FYÈUg//5e5n///þ",
-    "human": "_jb6g56w4m5gs5jp2pg001jj36g0018b2jb5m0j5rrce8yfxzsf007jmpj6knsmd1ce9cm000000cm000000a2s4js91b8000sb1k8000a",
-    "mixedHuman": "_jb6g56w4m5gs5jP2pg0O1jj36g0o18b2jb5m0j5Rrce8YfxzsF0o7jMpj6kNsmdlCe9cmO0o0o0cmo0O0o0a2s4js91b8o0osb1K8o0oA"
+    "data": "ÇmTfÚFÀßÇlÖeT/0ÈUË//44ÃFãÎ8?Ä@sCSí÷v/CIJÆçéËA4ÅFã////2H////9?FYÈUg//5e5n///þ",
+    "human": "_jb6g5jw4m5gs5jp2pg001jj36g0018b2jb5m0j5rrce8yfxzsf007jmpj6knsmd1ce9cm000000cm000000a2s4js91b8000sb1k8000n",
+    "mixedHuman": "_jb6g5jw4m5gs5jP2pg0O1jj36g0o18b2jb5m0j5Rrce8YfxzsF0o7jMpj6kNsmdlCe9cmO0o0o0cmo0O0o0a2s4js91b8o0osb1K8o0oN"
   }
 ]

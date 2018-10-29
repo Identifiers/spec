@@ -96,6 +96,22 @@
     "mixedHuman": "_j82cYo0zzZzzzzZzzwz"
   },
   {
+    "type": "long",
+    "typeCode": 4,
+    "value": "-9223372036854775808",
+    "data": "Ç0Nr/////////þ",
+    "human": "_j82d700000000000008",
+    "mixedHuman": "_j82d7o0o0O0o0o0o0o8"
+  },
+  {
+    "type": "long",
+    "typeCode": 4,
+    "value": "9223372036854775807",
+    "data": "Ç0Mõýýýýýýýýöþ",
+    "human": "_j82cyzzzzzzzzzzzzwc",
+    "mixedHuman": "_j82cYzzzzZzzzzZzzwc"
+  },
+  {
     "type": "long-list",
     "typeCode": 12,
     "value": [
@@ -110,11 +126,13 @@
       "-4095",
       "511",
       "-9007199254740991",
-      "9007199254740991"
+      "9007199254740991",
+      "-9223372036854775808",
+      "9223372036854775807"
     ],
-    "data": "Ç2Gz2ýÁÊýñj/BÄ//çT///2PýýýýûCz2Ë/ýøyý///////Bv/Sýýýýýýüþ",
-    "human": "_j869r03zw76fzkc0078r006jg000006efzzzzzyhy00wt0fztfzy0000000000ef00fzzzzzzzzzyg",
-    "mixedHuman": "_j869Ro3zw76fzkCo078R0o6jGo0o0O6efzZzzzyHyo0wTofztFzy0o0o0o0O0oef0ofzzZzzzzZzyg"
+    "data": "Ç2GÞ2ýÁÊýñj/BÄ//çT///2PýýýýûCz2Ë/ýøyý///////Bv/SýýýýýýýÑz////////míýýýýýýýýîþ",
+    "human": "_j869w03zw76fzkc0078r006jg000006efzzzzzyhy00wt0fztfzy0000000000ef00fzzzzzzzzzzmw000000000000cyzzzzzzzzzzzzw$",
+    "mixedHuman": "_j869Wo3zw76fzkCo078R0o6jGo0o0O6efzZzzzyHyo0wTofztFzy0o0o0o0O0oef0ofzzZzzzzZzzmwO0o0o0o0o0O0cyzZzzzzZzzzzZw$"
   },
   {
     "type": "long-map",
@@ -131,10 +149,12 @@
       "i": "-4095",
       "j": "511",
       "k": "-9007199254740991",
-      "l": "9007199254740991"
+      "l": "9007199254740991",
+      "m": "-9223372036854775808",
+      "n": "9223372036854775807"
     },
-    "data": "Ç4EÈ?30UkSòJS5ÀâäyòJhp/0Î×ØL/1ÀåçT///1ÀæåSýýýüÀçæú/N?eN0ýægwSýz//////5Àêåz2ýýýýýýýÞþ",
-    "human": "_j8a8s8b102gp4zx1cfgt2s6czygpbkc006gpdmc002gpfmm0000018b8sszzzzzzm5mx3w01m5nct0fzm5nx7zz00000000006gpskr03zzzzzzzzzzgs",
-    "mixedHuman": "_j8a8S8bl02gp4zXlcfgT2s6cZygpbKco06GpdmcO02gpFmmo0O0o18B8sszZzzzzM5mx3W0lm5NctofZm5nx7zzo0O0o0o0o06gPskro3zzzzZzzzzZgs"
+    "data": "Ç4Eè?30UkSòJS5ÀâäyòJhp/0Î×ØL/1ÀåçT///1ÀæåSýýýüÀçæú/N?eN0ýægwSýz//////5Àêåz2ýýýýýýýòJìÌ////////0Uqmíýýýýýýýýîþ",
+    "human": "_j8a8x8b102gp4zx1cfgt2s6czygpbkc006gpdmc002gpfmm0000018b8sszzzzzzm5mx3w01m5nct0fzm5nx7zz00000000006gpskr03zzzzzzzzzzt2vekg0000000000018besxzzzzzzzzzzzzrx",
+    "mixedHuman": "_j8a8X8bl02gp4zXlcfgT2s6cZygpbKco06GpdmcO02gpFmmo0O0o18B8sszZzzzzM5mx3W0lm5NctofZm5nx7zzo0O0o0o0o06gPskro3zzzzZzzzzZt2veKgo0o0o0o0O0o18BesxzZzzzzZzzzzZrx"
   }
 ]
