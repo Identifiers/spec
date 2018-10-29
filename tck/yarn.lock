@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-event-lite@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/event-lite/-/event-lite-0.1.1.tgz#47cf08a8d37d0b694cdb7b3b17b51faac6576086"
-  integrity sha1-R88IqNN9C2lM23s7F7UfqsZXYIY=
-
 fs-extra@7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-7.0.0.tgz#8cc3f47ce07ef7b3593a11b9fb245f7e34c041d6"
@@ -21,30 +16,14 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
   integrity sha1-Dovf5NHduIVNZOBOp8AOKgJuVlg=
 
-identifiers-js@0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/identifiers-js/-/identifiers-js-0.3.2.tgz#63668a570262ec65823c10c83de063c9adebccae"
-  integrity sha512-/N/YiFaLPVLVnAX8hLzSzgWtAJQMzOdFJjqpKK6AwhtICw0yg4586bNCHDaqlWgnNR8nI+B3jGtQ2zulAn7UHg==
+identifiers-js@0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/identifiers-js/-/identifiers-js-0.5.0.tgz#e847aa99ff1fbfb98d5aeab5d886345fd6a31564"
+  integrity sha512-veQlgLdehoCUb5/ociDma7T6y33fMlZ/BA5SUdK0j/qQikbzkkWKikKKmapyNsexKxn8PXiGXDy+4f1GEIwUMw==
   dependencies:
-    int64-buffer "^0.1.10"
     js.spec "^1.0.0-23"
     long "^4.0.0"
-    msgpack-lite "^0.1.26"
-
-ieee754@^1.1.8:
-  version "1.1.11"
-  resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.11.tgz#c16384ffe00f5b7835824e67b6f2bd44a5229455"
-  integrity sha512-VhDzCKN7K8ufStx/CLj5/PDTMgph+qwN5Pkd5i0sGnVwk56zJ0lkT8Qzi1xqWLS0Wp29DgDtNeS7v8/wMoZeHg==
-
-int64-buffer@^0.1.10, int64-buffer@^0.1.9:
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/int64-buffer/-/int64-buffer-0.1.10.tgz#277b228a87d95ad777d07c13832022406a473423"
-  integrity sha1-J3siiofZWtd30HwTgyAiQGpHNCM=
-
-isarray@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
-  integrity sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
+    msgpack-typed-numbers "^0.0.1"
 
 js.spec@^1.0.0-23:
   version "1.0.0-23"
@@ -154,15 +133,12 @@ long@4.0.0, long@^4.0.0:
   resolved "https://registry.yarnpkg.com/long/-/long-4.0.0.tgz#9a7b71cfb7d361a194ea555241c92f7468d5bf28"
   integrity sha512-XsP+KhQif4bjX1kbuSiySJFNAehNxgLb6hPRGJ9QsUr8ajHkuXGdrHmFUTUUXhDwVX2R5bY4JNZEwbUiMhV+MA==
 
-msgpack-lite@^0.1.26:
-  version "0.1.26"
-  resolved "https://registry.yarnpkg.com/msgpack-lite/-/msgpack-lite-0.1.26.tgz#dd3c50b26f059f25e7edee3644418358e2a9ad89"
-  integrity sha1-3TxQsm8FnyXn7e42REGDWOKprYk=
+msgpack-typed-numbers@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/msgpack-typed-numbers/-/msgpack-typed-numbers-0.0.1.tgz#49ee9318d7764371cc76025af653252d5a834e54"
+  integrity sha512-HWZetYhEl0DWzcny41rLAOm0yV+U5MR5b7+dz+2Yt1sq/uD0f09JJfz+HG96mGFAfzDbv3OeVZWI0diNpDD0YQ==
   dependencies:
-    event-lite "^0.1.1"
-    ieee754 "^1.1.8"
-    int64-buffer "^0.1.9"
-    isarray "^1.0.0"
+    long "^4.0.0"
 
 universalify@^0.1.0:
   version "0.1.1"

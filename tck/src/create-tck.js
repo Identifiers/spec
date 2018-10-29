@@ -47,6 +47,7 @@ function generatePrimitiveTCK() {
     Number.MIN_VALUE,
     -900.11,
     0.1,
+    1.0,
     88.44323,
     Number.MAX_VALUE
   );

@@ -1,4 +1,4 @@
-const Long = require("long");
+const Long = require('long');
 
 function longIdValueToStringIdValue(tobj) {
   if (tobj.type === 'long-list') {
