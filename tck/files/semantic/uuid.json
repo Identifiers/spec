@@ -2,26 +2,7 @@
   {
     "type": "uuid",
     "typeCode": 133,
-    "value": {
-      "bytes": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ]
-    },
+    "value": "00000000-0000-0000-0000-000000000000",
     "data": "ÇmDÚTz//////////////////þ",
     "human": "_jb68bh0g00000000000000000000000000x",
     "mixedHuman": "_jb68Bh0g0O0o0o0o0o0O0o0o0o0o0O0o0oX"
@@ -29,26 +10,7 @@
   {
     "type": "uuid",
     "typeCode": 133,
-    "value": {
-      "bytes": [
-        126,
-        243,
-        134,
-        38,
-        58,
-        223,
-        17,
-        232,
-        180,
-        103,
-        14,
-        213,
-        248,
-        159,
-        113,
-        139
-      ]
-    },
+    "value": "7ef38626-3adf-11e8-b467-0ed5f89f718b",
     "data": "ÇmDÚT¿ûñÁ8ÅgöÅÏnmÁØÝÂûá?þ",
     "human": "_jb68bh0gfvsrc9htvw8yhd371vazh7vhhcc",
     "mixedHuman": "_jb68Bh0gfVsrc9Htvw8Yhd371vazh7vhhcC"
@@ -56,26 +18,7 @@
   {
     "type": "uuid",
     "typeCode": 133,
-    "value": {
-      "bytes": [
-        154,
-        231,
-        237,
-        103,
-        18,
-        78,
-        77,
-        80,
-        186,
-        19,
-        245,
-        110,
-        45,
-        84,
-        56,
-        62
-      ]
-    },
+    "value": "9ae7ed67-124e-4d50-ba13-f56e2d54383e",
     "data": "ÇmDÚTÀoåô×àXðoUt8ûgàèÎîxþ",
     "human": "_jb68bh0gkbkytsrj9s6n1egkynq2tn1r7r1",
     "mixedHuman": "_jb68Bh0gkBkytsRj9s6N1egkYnq2tN1r7r1"
@@ -83,26 +26,7 @@
   {
     "type": "uuid",
     "typeCode": 133,
-    "value": {
-      "bytes": [
-        255,
-        255,
-        255,
-        255,
-        255,
-        255,
-        255,
-        255,
-        255,
-        255,
-        255,
-        255,
-        255,
-        255,
-        255,
-        255
-      ]
-    },
+    "value": "ffffffff-ffff-ffff-ffff-ffffffffffff",
     "data": "ÇmDÚTÁýýýýýýýýýýýýýýýýýýþ",
     "human": "_jb68bh0gzzzzzzzzzzzzzzzzzzzzzzzzzw2",
     "mixedHuman": "_jb68Bh0gzZzzzzZzzzzZzzzzZzzzzZzzzw2"
@@ -111,86 +35,10 @@
     "type": "uuid-list",
     "typeCode": 141,
     "value": [
-      {
-        "bytes": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      {
-        "bytes": [
-          126,
-          243,
-          134,
-          38,
-          58,
-          223,
-          17,
-          232,
-          180,
-          103,
-          14,
-          213,
-          248,
-          159,
-          113,
-          139
-        ]
-      },
-      {
-        "bytes": [
-          154,
-          231,
-          237,
-          103,
-          18,
-          78,
-          77,
-          80,
-          186,
-          19,
-          245,
-          110,
-          45,
-          84,
-          56,
-          62
-        ]
-      },
-      {
-        "bytes": [
-          255,
-          255,
-          255,
-          255,
-          255,
-          255,
-          255,
-          255,
-          255,
-          255,
-          255,
-          255,
-          255,
-          255,
-          255,
-          255
-        ]
-      }
+      "00000000-0000-0000-0000-000000000000",
+      "7ef38626-3adf-11e8-b467-0ed5f89f718b",
+      "9ae7ed67-124e-4d50-ba13-f56e2d54383e",
+      "ffffffff-ffff-ffff-ffff-ffffffffffff"
     ],
     "data": "ÇmE×ZDT//////////////////k16õÌ@ZQqàRÃÏÌBèüGõ@i7DËsûÔrÇPËbhÀyerØÒPCÖ¿6ýýýýýýýýýýýýýýýýýüþ",
     "human": "_jb68v564200000000000000000000000000c843yye32cepz27mb8sretqw9ywcbrg89nszdcw94wkagq89zavhdagw3xh0gzzzzzzzzzzzzzzzzzzzzzzzzzw9",
@@ -200,86 +48,10 @@
     "type": "uuid-map",
     "typeCode": 149,
     "value": {
-      "a": {
-        "bytes": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      "b": {
-        "bytes": [
-          126,
-          243,
-          134,
-          38,
-          58,
-          223,
-          17,
-          232,
-          180,
-          103,
-          14,
-          213,
-          248,
-          159,
-          113,
-          139
-        ]
-      },
-      "c": {
-        "bytes": [
-          154,
-          231,
-          237,
-          103,
-          18,
-          78,
-          77,
-          80,
-          186,
-          19,
-          245,
-          110,
-          45,
-          84,
-          56,
-          62
-        ]
-      },
-      "d": {
-        "bytes": [
-          255,
-          255,
-          255,
-          255,
-          255,
-          255,
-          255,
-          255,
-          255,
-          255,
-          255,
-          255,
-          255,
-          255,
-          255,
-          255
-        ]
-      }
+      "a": "00000000-0000-0000-0000-000000000000",
+      "b": "7ef38626-3adf-11e8-b467-0ed5f89f718b",
+      "c": "9ae7ed67-124e-4d50-ba13-f56e2d54383e",
+      "d": "ffffffff-ffff-ffff-ffff-ffffffffffff"
     },
     "data": "ÇmFÖY4ÁÂ7//////////////////9??7DyvîàkéxEòg@îôÕïSràòJRDUNñùfïFsNÎÛ3üÔïobrSbfÊTÁýýýýýýýýýýýýýýýýýýþ",
     "human": "_jb69b151c7210000000000000000000000000051cb210zqkgrk3nqrhx2t6e3pnz2fq32x1cf2116q7xnkh4kjda2x17xbe5na3gfn1ck211zzzzzzzzzzzzzzzzzzzzzzzzzr3",
