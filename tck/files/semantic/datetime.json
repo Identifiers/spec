@@ -3,9 +3,9 @@
     "type": "datetime",
     "typeCode": 388,
     "value": "1900-01-01T08:00:00.000Z",
-    "data": "ÇmTLZi4/8TÄÖ///þ",
-    "human": "_jb6g316bra0150hng00006",
-    "mixedHuman": "_jb6g3i6brA0l5oHngo0O06"
+    "data": "ÇmTLZÍýýüýoùÈz/þ",
+    "human": "_jb6g316kzzzzvzdfq58005",
+    "mixedHuman": "_jb6g3i6kzZzzvzDfq58O05"
   },
   {
     "type": "datetime",
@@ -19,9 +19,9 @@
     "type": "datetime",
     "typeCode": 388,
     "value": "2001-09-09T01:46:40.000Z",
-    "data": "ÇmTLZg3ëAYHT///þ",
-    "human": "_jb6g316b89phn55200000e",
-    "mixedHuman": "_jb6g3i6b89phn5520o0O0e"
+    "data": "ÇmTLZv///tNÈbz/þ",
+    "human": "_jb6g316f00001t6mmm800n",
+    "mixedHuman": "_jb6g3i6f0O0o1t6mmm8O0n"
   },
   {
     "type": "datetime-list",
@@ -31,9 +31,9 @@
       "1970-01-01T00:00:00.000Z",
       "2001-09-09T01:46:40.000Z"
     ],
-    "data": "ÇmTLâÍKÀz3ÎWf////læZæècV////þ",
-    "human": "_jb6g334ksf1804m26p000000sd16t6mmm800000r",
-    "mixedHuman": "_jb6g334ksF1804M26p0O0o0oSd16t6mmm80o0o0R"
+    "data": "ÇmTLâÍaýýýyØûãT//mÞ//2ÏÒÐÂ//þ",
+    "human": "_jb6g334ktfzzzzfxnywn0000sw000078tjjh000y",
+    "mixedHuman": "_jb6g334ktFzzzzFxnywN0o0oSw0o0O78tjJh0o0Y"
   },
   {
     "type": "datetime-map",
@@ -43,8 +43,8 @@
       "b": "1970-01-01T00:00:00.000Z",
       "c": "2001-09-09T01:46:40.000Z"
     },
-    "data": "ÇmTMXBÀßãîÎ0H7é///HJD1ÀáãÎËÏÒÐÂ////þ",
-    "human": "_jb6g3543m5gwqgm02a13b00002gp4051cf5m4v8tjjh00000g",
-    "mixedHuman": "_jb6g3543m5gwqgMo2a13bo0o02gp4O5lcf5m4v8Tjjho0o0og"
+    "data": "ÇmTMXBÀßçýýýíôÝsb/HJD1Àáåz//6WcY7//þ",
+    "human": "_jb6g3543m5gx7zzzzqytzeag02gp4051cf7g0000x3aaa400p",
+    "mixedHuman": "_jb6g3543m5gx7zZzzqyTzeag02gp4O5lcf7g0o0Ox3aaA40op"
   }
 ]

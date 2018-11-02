@@ -46,6 +46,7 @@ function generatePrimitiveTCK() {
 
   generator.tck(ID.factory.float, 'primitives/float',
     Number.MIN_VALUE,
+    100,
     -900.11,
     0.1,
     1.0,

@@ -10,6 +10,14 @@
   {
     "type": "float",
     "typeCode": 3,
+    "value": 100,
+    "data": "Ç/÷XJT//þ",
+    "human": "_j81wmgp80000s",
+    "mixedHuman": "_j81wMgp80O0os"
+  },
+  {
+    "type": "float",
+    "typeCode": 3,
     "value": -900.11,
     "data": "Ç/÷v3j¿ßWéÀÅÖþ",
     "human": "_j81wqg4c43gmfbgmfc$",
@@ -52,29 +60,31 @@
     "typeCode": 11,
     "value": [
       5e-324,
+      100,
       -900.11,
       0.1,
       1,
       88.44323,
       1.7976931348623157e+308
     ],
-    "data": "Ç1ðêÖ////////6KzÄ7PHwrbùãÍõMÊämMÊä×Wú///ãÎ9ßàõÀÚÑl×qýyýýýýýýöþ",
-    "human": "_j85sdjr000000000000wqg4c43gmfbgmff5kzecsk6csk6cts8zr0000sd05c72xw5eadjpbfzqzzzzzzzzzyf",
-    "mixedHuman": "_j85sDjro0O0o0o0o0o0Wqg4c43gmfBgmff5kzecSk6csK6cts8zr0o0osd05c72xW5eadJpbfzQzzzzZzzzzYf"
+    "data": "Ç1ðúÖ////////6HÀâ//@Ü1LTîÏóßWíJyÚämMÊämNãCî//2Jze6?Ü9ðËÈãÝûýýýýýýýÞþ",
+    "human": "_j85sfjr000000000000wmgp8000cqg4c43gmfbgmff5kzecsk6csk6cts8zr0000sd05c72xw5eadjpbfzqzzzzzzzzzy3",
+    "mixedHuman": "_j85sFjro0O0o0o0o0o0Wmgp80o0cqG4c43GmfbgMff5kZecsk6csk6Cts8zR0o0oSd05c72xw5EadjpBfzqzZzzzzZzzy3"
   },
   {
     "type": "float-map",
     "typeCode": 19,
     "value": {
       "a": 5e-324,
-      "b": -900.11,
-      "c": 0.1,
-      "d": 1,
-      "e": 88.44323,
-      "f": 1.7976931348623157e+308
+      "b": 100,
+      "c": -900.11,
+      "d": 0.1,
+      "e": 1,
+      "f": 88.44323,
+      "g": 1.7976931348623157e+308
     },
-    "data": "Ç3îè?6J////////0ÎÖ×v3j¿ßWéÀÅÛ4ÅÉSìmMÊämMËbfÊÏü///bfÚØ0fPhöeÈpdÀäãÝûýýýýýýýÞþ",
-    "human": "_j89rd8b1sc000000000000d1cb5w1310w53tw53vm5hwpfxsk6csk6cskagp9jhzg00018b5sd05c72xw5eadjn1cv5qzvzzzzzzzzzzg",
-    "mixedHuman": "_j89rD8blsC0o0o0o0o0O0odlCb5w131ow53tw53Vm5hwPfxsk6csk6CskagP9jhzGo0o18b5sd05c72Xw5eaDjnlcV5qzvZzzzzZzzzzG"
+    "data": "Ç3îø?6J////////0ÎÖ×XJT//ÎÖ÷v3j¿ßWéÀÅÛ4ÇÉSìmMÊämMËbfÚÏü///bfêØ0fPhöeÈpdÀåãÝûýýýýýýýÞþ",
+    "human": "_j89rf8b1sc000000000000d1cb545j0002gp7jy0hgge2hxe2hxt2s6b7ywsk6csk6csn8b5s8zr0000m5kcpg2p3hey2q56sagpfjvzxzzzzzzzzzzg9",
+    "mixedHuman": "_j89rF8blsC0o0o0o0o0O0odlCb545J0o02Gp7jyOhgge2hxe2Hxt2s6b7ywSk6csK6csn8b5s8Zr0o0Om5kcPg2p3Hey2q56sagPfjvzXzzzzZzzzzZg9"
   }
 ]
