@@ -6,8 +6,8 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "fs-extra": "7.0.0",
-    "identifiers-js": "0.5.1",
+    "fs-extra": "7.0.1",
+    "identifiers-js": "0.6.1",
     "long": "4.0.0"
   }
 }
