@@ -1,4 +1,4 @@
-## VERSION 0.2 Draft (Oct 28, 2018)
+## VERSION 0.3 Draft (Nov 18, 2018)
 
 
 # What are Identifiers?
@@ -7,16 +7,16 @@ Identifiers are data that identify a unique [entity](https://en.wikipedia.org/wi
 
 In practice, identifiers are serialized strings that must be interpreted, parsed, encoded and decoded along software system pathways. They transit multiple systems, in many kinds of mediums like JSON, emails and log files. Software that must interpret this data along the way has to know how to consume the identifier and interpret it's value.
 
-To illustrate this problem, consider a string identifer encoded with [Base64](https://en.wikipedia.org/wiki/Base64). The generator of the identifier needs to convert their identifier value into a byte array or string. It transforms this array into Base64 and sends or stores this result. Later, another application encounters this Base64 string, and then must make several determinations:
+To illustrate this problem, consider a string identifier encoded with [Base64](https://en.wikipedia.org/wiki/Base64). The generator of the identifier needs to convert their identifier value into a byte array or string. It transforms this array into Base64 and sends or stores this result. Later, another application encounters this Base64 string, and then must make several determinations:
 
 1. Is this string encoded?
 2. If so, how should it be decoded?
 3. Once decoded into a byte array, should it be transformed into another data structure?
 4. Once it is transformed, what are the semantics of the value?
 
-This process is hard, error-prone and the source of many bugs, failures, and other negative outcomes. The developer must find a source of truth to answer their questions about this multi-step process. Often docs are out-of-date, the developers are unavailable, or they provide incorrect guidance.
+The developer must find a source of truth to answer their questions about this multi-step process. Often docs are out-of-date, the developers are unavailable, or they provide incorrect guidance. This process is hard, error-prone and the source of many bugs, failures, and other negative outcomes.
 
-The Identifiers project hopes to tackle this problem by defining sharable identifier types that can be applied across software domains. It intends to make it simple to convert a data identifier into a string, transmit it or store it, and then allow a different application convert the encodded identifier into a semantic data value for processing.
+The Identifiers project hopes to tackle this problem by defining sharable identifier types that can be applied across software domains. It intends to make it simple to convert a data identifier into a string, transmit it or store it, and then allow a different application convert the encoded identifier into a semantic data value for processing.
 
 # Identifier Types
 
@@ -41,7 +41,7 @@ A list identifier is a list of values. They are not a list of identifiers, but a
 
 #### Maps
 
-A map identifier is a map of values. Maps are useful to create a single identifier composed of multiple labeled values of the same type. These values are labeled by the map keys. The keys are stored in sorted order for consistency.
+A map identifier is a map of values. Maps are useful to create a single identifier composed of multiple labeled values of the same type. These values are labeled by the map keys. The keys are stored in alphabetically-sorted order for consistency.
 
 #### Composite
 
@@ -76,7 +76,7 @@ As an example, if a system encounters an unknown IPv6 semantic identifier, but h
 
 # String Encoding
 
-Identifiers have two forms of string encoding--Data and Human. These forms have different uses.
+Identifiers have two forms of string encoding—Data and Human. These forms have different uses.
 
 ## Data Form
 
@@ -101,7 +101,7 @@ This section applies to library authors who build implementations of the Identif
 
 #### Primitive Identifiers
 
-The primitive identifiers should map to any existing platform types. Most platforms have `string`, `boolean`, and the other primitive types natively implemented. If one is not available, the implementer is encouraged to build the type support into the library rather than requiring the consumer to explicitly utilize a third-party library. For instance, JS does not support a full 64-bit long value, so the JS implementation provides a long-like object with `low` and `high` ints to support the long number space. 
+The primitive identifiers should map to any existing platform types. Most platforms have `string`, `boolean`, and the other primitive types natively implemented. If one is not available, the implementer is encouraged to build the type support into the library rather than requiring the consumer to explicitly utilize a third-party library. For instance, JS does not support a full 64-bit long value, so the JS implementation utilizes the a popular Long library to support the long number space. 
 
 #### Type Codes
 
@@ -143,7 +143,7 @@ Here are the type codes for primitive types, as well as their list and map struc
 
 Composite identifiers can be either lists or maps of other identifiers. Composite identifiers are not typed with primitive type flags. They contain fully-formed identifiers of any type. They can be used to define Semantic identifiers.
 
-When encoded to msgpack, the outer type is either composite-list or composte-map. The contents of composite identifiers are fully-encoded identifiers.
+When encoded to MsgPack, the outer type is either composite-list or composite-map. The contents of composite identifiers are fully-encoded identifiers.
 
 |type|code|MsgPack family|
 |---|---|---|
@@ -170,7 +170,7 @@ The following table lists the defined semantic types:
 
 ##### List/Map of Structured Semantic Identifiers
 
-It is possible for a semantic identifier's base type to be a list or map of primitives. The example of this is the `geo` identifier. In order to create a list or map of these identifiers, the structured types must be marked as either a `list-of` or `map-of` the semantic identifier. These type code addendums are defined in the following table:
+It is possible for a semantic identifier's base type to be a list or map of primitives. The example of this is the `geo` identifier. In order to create a list or map of these identifiers, the structured types must be marked as either a `list-of` or `map-of` the semantic identifier. These type code addenda are defined in the following table:
 
 |type|code|MsgPack family|
 |---|---|---|
@@ -187,13 +187,15 @@ In order to encode an identifier, one must first encode it to bytes using the [M
 
 ### MsgPack
 
-Internally Identifiers are compressed [MsgPack data structures](https://msgpack.org). In order to interoperate with MsgPack correctly, One must pass the MsgPack encoder the following array:
+Internally encoded Identifiers are compressed [MsgPack data structures](https://msgpack.org). In order to inter-operate with MsgPack correctly, One must pass the MsgPack encoder the following array:
 
 ```
 [type-code, identifier-encode-value]
 ```
 
 Each identifier type has a specific encode value shape that must be met. Implementations will often have platform-specific formats of the identifier values, like native class representations, but these must be transformed into formats that are usable by MsgPack.
+
+Most MsgPack implementations have cross-platform quirks that will require fine-tuning or even fixing. For instance, the Java version of MsgPack treats all doubles as `FLOAT64` while other platforms encode float values as either `FLOAT32` or `FLOAT64`. The java version of identifiers has to manually emit `FLOAT32` for single-precision doubles. The [Test Compatibility Kit](./tck/README.md) will aid the implementer in discovering and mitigating their platform's MsgPack anomalies.
 
 # Cross-Implementation Compatibility
 

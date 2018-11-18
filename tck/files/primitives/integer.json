@@ -4,40 +4,40 @@
     "typeCode": 2,
     "value": -2147483648,
     "data": "Ç/Øb////þ",
-    "human": "_j81d500000005",
-    "mixedHuman": "_j81d5o0o0O0o5"
+    "human": "j81d500000005",
+    "mixedHuman": "J8id50o0o0O05"
   },
   {
     "type": "integer",
     "typeCode": 2,
     "value": -32767,
     "data": "Ç/ØL/3þ",
-    "human": "_j81d30015",
-    "mixedHuman": "_j81d3o0l5"
+    "human": "j81d30015",
+    "mixedHuman": "J8id30o15"
   },
   {
     "type": "integer",
     "typeCode": 2,
     "value": 0,
     "data": "Ç/z/þ",
-    "human": "_j81000",
-    "mixedHuman": "_j81o0o"
+    "human": "j81000",
+    "mixedHuman": "J8i0o0"
   },
   {
     "type": "integer",
     "typeCode": 2,
     "value": 255,
     "data": "Ç/×Íöþ",
-    "human": "_j81cszrf",
-    "mixedHuman": "_j81cSzrf"
+    "human": "j81cszrf",
+    "mixedHuman": "J8icsZrf"
   },
   {
     "type": "integer",
     "typeCode": 2,
     "value": 2147483647,
     "data": "Ç/×åýýýýþ",
-    "human": "_j81cwzzzzzzgs",
-    "mixedHuman": "_j81cWzzzzZzgs"
+    "human": "j81cwzzzzzzgs",
+    "mixedHuman": "J8icwZzzzzZgs"
   },
   {
     "type": "integer-list",
@@ -50,8 +50,8 @@
       2147483647
     ],
     "data": "Ç1ÐÛH////nj/72MýåSýýýúþ",
-    "human": "_j859bmm000001mc0040cszyefzzzzzrp",
-    "mixedHuman": "_j859Bmmo0O0o1mCo040CszyeFzzzzZrp"
+    "human": "j859bmm000001mc0040cszyefzzzzzrp",
+    "mixedHuman": "J859bMm0o0O0lmc0o4ocSzyefZzzzzRp"
   },
   {
     "type": "integer-map",
@@ -64,7 +64,7 @@
       "e": 2147483647
     },
     "data": "Ç3ÎØ?6Y////9??W//æfj44ÇÊýæfÚñýýýýzþ",
-    "human": "_j898b8b1ta000000m5hd3001m5hg18b4skzt2seefzzzzzrk",
-    "mixedHuman": "_j898B8bltA0o0o0om5hD3o0lM5hg18b4skZt2seEfzzzZzrk"
+    "human": "j898b8b1ta000000m5hd3001m5hg18b4skzt2seefzzzzzrk",
+    "mixedHuman": "J898b8b1taO0o0o0m5hd30o1m5hgl8B4skzT2seeFzzzzZrk"
   }
 ]

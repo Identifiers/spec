@@ -4,16 +4,16 @@
     "typeCode": 0,
     "value": "Hello, World!",
     "data": "Ç/IÒÁIÖêqÉ34uwâêl7Tþ",
-    "human": "_j80atj35dhp6yb10axqq4v34445",
-    "mixedHuman": "_j80aTj35dHp6yb1oaxqQ4v34445"
+    "human": "j80atj35dhp6yb10axqq4v34445",
+    "mixedHuman": "J8oatJ35dhP6ybi0axqq4v34445"
   },
   {
     "type": "string",
     "typeCode": 0,
     "value": "",
     "data": "Ç/H/þ",
-    "human": "_j80a0a",
-    "mixedHuman": "_j80a0a"
+    "human": "j80a0a",
+    "mixedHuman": "J8oaoA"
   },
   {
     "type": "string-list",
@@ -23,8 +23,8 @@
       ""
     ],
     "data": "Ç1FdèUÈêpOãÀ1ÛÜðpM3N/þ",
-    "human": "_j8495ba8cnp6rvsc41bpywkccggt0q",
-    "mixedHuman": "_j8495ba8cNp6rvSc4ibPywkcCggt0Q"
+    "human": "j8495ba8cnp6rvsc41bpywkccggt0q",
+    "mixedHuman": "J8495Ba8cnP6rvsC41bpYwkccGgtoq"
   },
   {
     "type": "string-map",
@@ -34,7 +34,7 @@
       "b": ""
     },
     "data": "Ç3Dd?5ØÆlÙAÄ÷jzÕqÚËÄU5ÀàÎ/þ",
-    "human": "_j88858b1nn46av3cdwp20nvfe9p688d1cag0e",
-    "mixedHuman": "_j88858blnN46av3cdwp20nvfE9p688dlcaGoe"
+    "human": "j88858b1nn46av3cdwp20nvfe9p688d1cag0e",
+    "mixedHuman": "J88858b1nn46av3Cdwp2Onvfe9p688D1cag0e"
   }
 ]

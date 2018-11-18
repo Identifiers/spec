@@ -4,56 +4,56 @@
     "typeCode": 3,
     "value": 5e-324,
     "data": "Ç/÷j////////7þ",
-    "human": "_j81wp0000000000004m",
-    "mixedHuman": "_j81wPo0o0O0o0o0o04m"
+    "human": "j81wp0000000000004m",
+    "mixedHuman": "J8iwp0o0o0O0o0o0o4m"
   },
   {
     "type": "float",
     "typeCode": 3,
     "value": 100,
     "data": "Ç/÷XJT//þ",
-    "human": "_j81wmgp80000s",
-    "mixedHuman": "_j81wMgp80O0os"
+    "human": "j81wmgp80000s",
+    "mixedHuman": "J8iwmGp8o0O0s"
   },
   {
     "type": "float",
     "typeCode": 3,
     "value": -900.11,
     "data": "Ç/÷v3j¿ßWéÀÅÖþ",
-    "human": "_j81wqg4c43gmfbgmfc$",
-    "mixedHuman": "_j81wQg4c43gmfbGmfc$"
+    "human": "j81wqg4c43gmfbgmfc$",
+    "mixedHuman": "J8iwqG4c43GmfbgMfc$"
   },
   {
     "type": "float",
     "typeCode": 3,
     "value": 0.1,
     "data": "Ç/÷mûämMÊämMÎþ",
-    "human": "_j81wpfxsk6csk6csk82",
-    "mixedHuman": "_j81wPfxsk6csk6Csk82"
+    "human": "j81wpfxsk6csk6csk82",
+    "mixedHuman": "J8iwpFxsk6Csk6cSk82"
   },
   {
     "type": "float",
     "typeCode": 3,
     "value": 1,
     "data": "Ç/÷Wú///þ",
-    "human": "_j81wmfw00000r",
-    "mixedHuman": "_j81wMfwo0O0or"
+    "human": "j81wmfw00000r",
+    "mixedHuman": "J8iwmFw0o0O0r"
   },
   {
     "type": "float",
     "typeCode": 3,
     "value": 88.44323,
     "data": "Ç/÷n1ÖrÛîÕHêÎþ",
-    "human": "_j81wpg2p3hey2q56s8d",
-    "mixedHuman": "_j81wPg2p3Hey2q56s8d"
+    "human": "j81wpg2p3hey2q56s8d",
+    "mixedHuman": "J8iwpG2p3hEy2q56s8d"
   },
   {
     "type": "float",
     "typeCode": 3,
     "value": 1.7976931348623157e+308,
     "data": "Ç/÷qýyýýýýýýöþ",
-    "human": "_j81wpzzfzzzzzzzzzww",
-    "mixedHuman": "_j81wPzzfzZzzzzZzzww"
+    "human": "j81wpzzfzzzzzzzzzww",
+    "mixedHuman": "J8iwpZzfzzZzzzzZzww"
   },
   {
     "type": "float-list",
@@ -68,8 +68,8 @@
       1.7976931348623157e+308
     ],
     "data": "Ç1ðúÖ////////6HÀâ//@Ü1LTîÏóßWíJyÚämMÊämNãCî//2Jze6?Ü9ðËÈãÝûýýýýýýýÞþ",
-    "human": "_j85sfjr000000000000wmgp8000cqg4c43gmfbgmff5kzecsk6csk6cts8zr0000sd05c72xw5eadjpbfzqzzzzzzzzzy3",
-    "mixedHuman": "_j85sFjro0O0o0o0o0o0Wmgp80o0cqG4c43GmfbgMff5kZecsk6csk6Cts8zR0o0oSd05c72xw5EadjpBfzqzZzzzzZzzy3"
+    "human": "j85sfjr000000000000wmgp8000cqg4c43gmfbgmff5kzecsk6csk6cts8zr0000sd05c72xw5eadjpbfzqzzzzzzzzzy3",
+    "mixedHuman": "J85sfJr0o0O0o0o0o0owMgp8o0ocqg4c43gMfbgmFf5kzEcsk6Csk6cTs8zrO0o0sDo5c72xw5eAdjpbFzqzzZzzzzZzy3"
   },
   {
     "type": "float-map",
@@ -84,7 +84,7 @@
       "g": 1.7976931348623157e+308
     },
     "data": "Ç3îø?6J////////0ÎÖ×XJT//ÎÖ÷v3j¿ßWéÀÅÛ4ÇÉSìmMÊämMËbfÚÏü///bfêØ0fPhöeÈpdÀåãÝûýýýýýýýÞþ",
-    "human": "_j89rf8b1sc000000000000d1cb545j0002gp7jy0hgge2hxe2hxt2s6b7ywsk6csk6csn8b5s8zr0000m5kcpg2p3hey2q56sagpfjvzxzzzzzzzzzzg9",
-    "mixedHuman": "_j89rF8blsC0o0o0o0o0O0odlCb545J0o02Gp7jyOhgge2hxe2Hxt2s6b7ywSk6csK6csn8b5s8Zr0o0Om5kcPg2p3Hey2q56sagPfjvzXzzzzZzzzzZg9"
+    "human": "j89rf8b1sc000000000000d1cb545j0002gp7jy0hgge2hxe2hxt2s6b7ywsk6csk6csn8b5s8zr0000m5kcpg2p3hey2q56sagpfjvzxzzzzzzzzzzg9",
+    "mixedHuman": "J89rf8b1scO0o0o0o0o0O0d1cB545jO0o2gP7jy0Hgge2Hxe2hXt2s6B7ywsK6csk6csn8B5s8zRo0o0M5kcpG2p3hEy2q56sagpFjvzxZzzzzZzzzzG9"
   }
 ]

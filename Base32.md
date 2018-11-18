@@ -3,17 +3,16 @@
 Humans often hand-enter identifiers, usually in a website URL. Because humans are known to make mistakes, the Base32 format for identifiers is needed to reduce the impact of their mistakes when interpreting the encoded identifier.
 
 ## Requirements
-* Checksum -- the encoded identifier will include a checksum character to validate the identifier symbols was keyed in correctly.
-* Aliases for common mistyping -- humans regularly misinterpret some characters as other characters. For instance, "0" is often read as "O", or the letter "O". This encoding handles these common mistakes by aliasing the mistaken values as correct values.
-* Case-insensitive -- While it can be said humans don't pay much attention to the case of a letter, it is also quite common for softare to mess up case as well. This encoding will be case-insensitive to help this situation.
-* URL-safe -- The most common form of human identifier entry is in URLs. As a consequence, this Base32 encoding is URL-safe, meaning that the symbols in an identifier will not have to be percent-encoded to work in a URL setting. Moreover, they will not include reserved URL symbols like '/' or '?'.
+* **Checksum:** the encoded identifier will include a checksum character to validate the identifier symbols was keyed in correctly.
+* **Aliases for common mistyping:** humans regularly misinterpret some characters as other characters. For instance, "0" is often read as "O", or the letter "O". This encoding handles these common mistakes by aliasing the mistaken values as correct values.
+* **Case-insensitive:** While it can be said humans don't pay much attention to the case of a letter, it is also quite common for software to mess up case as well. This encoding will be case-insensitive to help this situation.
+* **URL-safe:** The most common form of human identifier entry is in URLs. As a consequence, this Base32 encoding is URL-safe, meaning that the symbols in an identifier will not have to be percent-encoded to work in a URL setting. Moreover, they will not include reserved URL symbols like '/' or '?'.
 
 ### Douglas Crockford's Base32
-This encoding's symbol set and checksum are an implementation of [Douglas Crockford's Base32 definition](http://crockford.com/wrmg/base32.html). The one addition to this specification is the presence of a prefix character '_' to aid in pattern matching.
-
+This encoding's symbol set and checksum are an implementation of [Douglas Crockford's Base32 definition](http://crockford.com/wrmg/base32.html).
 
 ### Relationship to Base128
-Identifiers also specifies a software-driven encoding format for use cases that do not require human-driven transimssion. Details can be found in the [Base128 Encoding](Base128.md) definition.
+Identifiers also specifies a software-driven encoding format for use cases that do not require human-driven transmission. Details can be found in the [Base128 Encoding](Base128.md) definition.
 
 ### Symbol Table
 |pos|char _[aliases]_|code|  |pos|char _[aliases]_|code|
@@ -34,7 +33,7 @@ Identifiers also specifies a software-driven encoding format for use cases that 
 |13|**`d [D]`**|0x64, 0x44| |29|**`x [X]`**|0x78, 0x58|
 |14|**`e [E]`**|0x65, 0x45| |30|**`y [Y]`**|0x79, 0x59|
 |15|**`f [F]`**|0x66, 0x46| |31|**`z [Z]`**|0x7A, 0x5A|
-### Checksum Addedum
+### Checksum Addendum
 |pos|char _[alias]_|code|
 |---:|---|---|
 |32|**`*`**|0x2A|
@@ -46,4 +45,4 @@ Identifiers also specifies a software-driven encoding format for use cases that 
 The Checksum is calculated by summing the _unsigned_ bytes in the encoded data, then calculating the modulo of 37. For platforms that have signed byte representations, one can convert it to an unsigned byte by `&`ing the signed byte with `0xff`.
 
 ### Regular Expression
-This regular expression can match a whole Base32 encoded identifier: `_[0-9A-VW-Za-vw-z]{2,}[0-9A-Za-z*~$=]`
+This regular expression can match a whole Base32 encoded identifier: `[0-9A-TV-Za-tv-z]{2,}[0-9A-Za-z*~$=]`

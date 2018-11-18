@@ -23,7 +23,7 @@ This encoding should have the following characteristics:
 * Not confusable with other well-known encodings
 
 ### Relationship to Base32
-Identifiers also specifies a human-driven encoding format for use cases that require human-driven transimssion. Details can be found in the [Base32 Encoding](Base32.md) definition.
+Identifiers also specifies a human-driven encoding format for use cases that require human-driven transmission. Details can be found in the [Base32 Encoding](Base32.md) definition.
 
 ### Symbol Table
 |pos|char|code|  |pos|char|code|  |pos|char|code|  |pos|char|code|
@@ -63,7 +63,7 @@ Identifiers also specifies a human-driven encoding format for use cases that req
 
 
 ### End Marker
-An end marker identifies the string as a Base128 encoded identifier. This marker, the thorn `þ` 0xFD character, terminates the string value This character is only used currently in Iceland (see https://en.wikipedia.org/wiki/Thorn_(letter)). Thorn is never at the end of a word so an encoded identifier shouldn't be confused with an Icelandic word.
+An end marker identifies the string as a Base128 encoded identifier. This marker, the thorn `þ` 0xFD character, terminates the string value This character is only used currently in Iceland (see https://en.wikipedia.org/wiki/Thorn_(letter)). Thorn is never at the end of a word so an encoded identifier should not be confused with an Icelandic word.
 
 ### Regular Expression
 This regular expression can match a whole Base128 encoded identifier: `[/-9?-Za-z¿-ý]{2,}þ`
