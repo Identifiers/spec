@@ -51,7 +51,7 @@ Composite identifiers combine other identifiers of mixed types into a single ide
 
 Semantic identifiers are based on either single or structured primitive identifiers. They can be considered to "extend" a base identifier type.
 
-type|base type|structure|notes|
+|type|base type|structure|notes|
 |---|---|---|---|
 |`uuid`|`bytes`|16 bytes|Supports all uuid versions. [https://en.wikipedia.org/wiki/Universallyuniqueidentifier]()|
 |`datetime`|`long`|single value|Unix time. [https://en.wikipedia.org/wiki/Unix_time]()|
