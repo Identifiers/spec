@@ -29,7 +29,7 @@ for (let i = 0; i < SYMBOLS.length; i++) {
 }
 
 console.log('### Regular Expression');
-regexStr += ']{2,}þ$`';
+regexStr += ']{2,}$`';
 console.log(regexStr);
 
 

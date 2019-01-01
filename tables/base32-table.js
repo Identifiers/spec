@@ -54,7 +54,7 @@ Array.from(CHECK_EXTRAS).forEach((char, i) => {
 console.log(tbl);
 
 console.log('### Regular Expression');
-console.log('`^_[0-9A-VW-Za-vw-z]{2,}[0-9A-Za-z*~$=]$`');
+console.log('`^[0-9A-TV-Za-tv-z]{2,}[0-9A-Za-z*~$=]$`');
 
 
 

@@ -3,7 +3,7 @@
     "type": "integer",
     "typeCode": 2,
     "value": -2147483648,
-    "data": "Ç/Øb////þ",
+    "data": "Ç/Øb////",
     "human": "j81d500000005",
     "mixedHuman": "J8id50o0o0O05"
   },
@@ -11,7 +11,7 @@
     "type": "integer",
     "typeCode": 2,
     "value": -32767,
-    "data": "Ç/ØL/3þ",
+    "data": "Ç/ØL/3",
     "human": "j81d30015",
     "mixedHuman": "J8id30o15"
   },
@@ -19,7 +19,7 @@
     "type": "integer",
     "typeCode": 2,
     "value": 0,
-    "data": "Ç/z/þ",
+    "data": "Ç/z/",
     "human": "j81000",
     "mixedHuman": "J8i0o0"
   },
@@ -27,7 +27,7 @@
     "type": "integer",
     "typeCode": 2,
     "value": 255,
-    "data": "Ç/×Íöþ",
+    "data": "Ç/×Íö",
     "human": "j81cszrf",
     "mixedHuman": "J8icsZrf"
   },
@@ -35,7 +35,7 @@
     "type": "integer",
     "typeCode": 2,
     "value": 2147483647,
-    "data": "Ç/×åýýýýþ",
+    "data": "Ç/×åýýýý",
     "human": "j81cwzzzzzzgs",
     "mixedHuman": "J8icwZzzzzZgs"
   },
@@ -49,7 +49,7 @@
       255,
       2147483647
     ],
-    "data": "Ç1ÐÛH////nj/72MýåSýýýúþ",
+    "data": "Ç1ÐÛH////nj/72MýåSýýýú",
     "human": "j859bmm000001mc0040cszyefzzzzzrp",
     "mixedHuman": "J859bMm0o0O0lmc0o4ocSzyefZzzzzRp"
   },
@@ -63,7 +63,7 @@
       "d": 255,
       "e": 2147483647
     },
-    "data": "Ç3ÎØ?6Y////9??W//æfj44ÇÊýæfÚñýýýýzþ",
+    "data": "Ç3ÎØ?6Y////9??W//æfj44ÇÊýæfÚñýýýýz",
     "human": "j898b8b1ta000000m5hd3001m5hg18b4skzt2seefzzzzzrk",
     "mixedHuman": "J898b8b1taO0o0o0m5hd30o1m5hgl8B4skzT2seeFzzzzZrk"
   }

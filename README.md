@@ -1,4 +1,4 @@
-## VERSION 0.3 Draft (Nov 18, 2018)
+## VERSION 0.4 Draft (Jan 1, 2019)
 
 
 # What are Identifiers?
