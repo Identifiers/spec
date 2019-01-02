@@ -3,7 +3,7 @@
 The TCK consists of files used to verify the implementation of the [Identifiers specification](../README.md). The primary goal is to ensure compatibility between implementations. 
 
 ### Version
-Complies with Draft 0.1 of the specification.
+Complies with Draft 4 of the specification.
 
 ### Organization of `/files`
 
