@@ -53,18 +53,18 @@ Semantic identifiers are based on either single or structured primitive identifi
 
 |type|base type|structure|notes|
 |---|---|---|---|
-|`uuid`|`bytes`|16 bytes|Supports all uuid versions. [https://en.wikipedia.org/wiki/Universallyuniqueidentifier]()|
-|`datetime`|`long`|single value|Unix time. [https://en.wikipedia.org/wiki/Unix_time]()|
-|`geo`|`float-list`|[latitude, longitude]|decimal latitude & longitude. [https://en.wikipedia.org/wiki/Geotagging]()|
+|`uuid`|`bytes`|16 bytes|Supports all uuid versions. [https://en.wikipedia.org/wiki/Universallyuniqueidentifier](https://en.wikipedia.org/wiki/Universallyuniqueidentifier)|
+|`datetime`|`long`|single value|Unix time. [https://en.wikipedia.org/wiki/Unix_time](https://en.wikipedia.org/wiki/Unix_time)|
+|`geo`|`float-list`|[latitude, longitude]|decimal latitude & longitude. [https://en.wikipedia.org/wiki/Geotagging](https://en.wikipedia.org/wiki/Geotagging)|
 
 #### Future Possibilities
 
-* IP: [https://stackoverflow.com/questions/8105629/ip-addresses-stored-as-int-results-in-overflow]()
-* IPv6: [https://technet.microsoft.com/en-us/library/cc781672(v=ws.10).aspx#w2k3tr_ipv6_how_thcz]()
-* MAC: [https://en.wikipedia.org/wiki/MAC_address]()
-* Flicks: [https://github.com/OculusVR/Flicks]()
-* Currency: [https://www.iso.org/iso-4217-currency-codes.html]()
-* Location: [http://www.unece.org/cefact/locode/service/location.html]()
+* IP: [https://stackoverflow.com/questions/8105629/ip-addresses-stored-as-int-results-in-overflow](https://stackoverflow.com/questions/8105629/ip-addresses-stored-as-int-results-in-overflow)
+* IPv6: [https://technet.microsoft.com/en-us/library/cc781672(v=ws.10).aspx#w2k3tr_ipv6_how_thcz](https://technet.microsoft.com/en-us/library/cc781672(v=ws.10).aspx#w2k3tr_ipv6_how_thcz)
+* MAC: [https://en.wikipedia.org/wiki/MAC_address](https://en.wikipedia.org/wiki/MAC_address)
+* Flicks: [https://github.com/OculusVR/Flicks](https://github.com/OculusVR/Flicks)
+* Currency: [https://www.iso.org/iso-4217-currency-codes.html](https://www.iso.org/iso-4217-currency-codes.html)
+* Location: [http://www.unece.org/cefact/locode/service/location.html](http://www.unece.org/cefact/locode/service/location.html)
 
 If you have suggestions please file an Issue to start a discussion.
 
