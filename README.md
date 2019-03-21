@@ -54,7 +54,7 @@ Semantic identifiers are based on either single or structured primitive identifi
 |type|base type|structure|notes|
 |---|---|---|---|
 |`uuid`|`bytes`|16 bytes|Supports all uuid versions. [https://en.wikipedia.org/wiki/Universallyuniqueidentifier](https://en.wikipedia.org/wiki/Universallyuniqueidentifier)|
-|`datetime`|`long`|single value|Unix time. [https://en.wikipedia.org/wiki/Unix_time](https://en.wikipedia.org/wiki/Unix_time)|
+|`datetime`|`long`|single value|Time in Unix/Posix Epoch, in _milliseconds_. [https://en.wikipedia.org/wiki/Epoch_(computing)](https://en.wikipedia.org/wiki/Epoch_(computing))|
 |`geo`|`float-list`|[latitude, longitude]|decimal latitude & longitude. [https://en.wikipedia.org/wiki/Geotagging](https://en.wikipedia.org/wiki/Geotagging)|
 
 #### Future Possibilities
